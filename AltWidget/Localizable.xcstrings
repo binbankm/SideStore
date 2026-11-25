@@ -1,0 +1,369 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ days": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 天"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ failed with code %@.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 失败，错误代码：%2$@。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ failed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 失败。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ returned unexpected output.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 返回了意外的输出。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ timed out.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 已超时。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ unexpectedly quit.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 意外退出。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "-": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "-"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "1 day": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 天"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "7+": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "7+"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "DAYS": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "天"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Debug Description": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "调试描述"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Error Description": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "错误描述"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Expired": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已过期"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Expires in\n": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "距过期还有\n"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Expires in %@ ": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剩余 %@ "
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Failure": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "失败"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Failure Reason": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "失败原因"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Launch app to update widget": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启动应用以更新小组件"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Open SideStore": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开 SideStore"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Recovery Suggestion": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复建议"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Requires %@ or later": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "需要 %@ 或更高版本"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Source File": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源文件"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Source Line": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "源代码行"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "The process": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "该进程"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "The process '%@'": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "进程“%@”"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Title": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "标题"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Underlying Error": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "底层错误"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Underlying Errors": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "底层错误"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Unsupported iOS": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不支持的 iOS 版本"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "day": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "天"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "days": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "天"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    }
+  },
+  "version": "1.0"
+}

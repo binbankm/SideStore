@@ -1,0 +1,182 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ could not be backed up.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法备份 %@。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ could not be restored.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法恢复 %@。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "%@ is inactive.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ 未激活。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "A random error occurred.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发生了意外错误。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "App": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "应用"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Backup Error": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份错误"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Resign (or) Active %@ in SideStore to continue using it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在 SideStore 中重新签名或激活 %@ 以继续使用。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "SideBackup could not start": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SideBackup 无法启动"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "The AltStore app group could not be found.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找不到 AltStore 应用群组。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "The app group “%@” could not be found.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找不到应用群组“%@”。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "The bundle identifier is invalid.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bundle ID 无效。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Unable to access backup.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法访问备份。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Unable to create app group backup directory.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法创建应用群组备份目录。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Unable to create backup directory.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法创建备份目录。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "Unable to read app group backup.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法读取应用群组备份。"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    },
+    "this app": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此应用"
+          }
+        }
+      },
+      "comment": "No comment provided by engineer."
+    }
+  },
+  "version": "1.0"
+}

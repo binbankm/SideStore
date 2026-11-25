@@ -1,0 +1,774 @@
+{
+  "AltStore/Authentication/Authentication.storyboard": [
+    {
+      "id": "EI2-V3-zQZ",
+      "attr": "text",
+      "source": "Welcome to SideStore.",
+      "zh": "欢迎使用 SideStore。"
+    },
+    {
+      "id": "SNU-tv-8Au",
+      "attr": "text",
+      "source": "Sign in with your Apple ID to get started.",
+      "zh": "使用您的 Apple ID 登录以开始使用。"
+    },
+    {
+      "id": "59N-O1-6bM",
+      "attr": "text",
+      "source": "APPLE ID",
+      "zh": "Apple ID"
+    },
+    {
+      "id": "DBu-vt-hlo",
+      "attr": "placeholder",
+      "source": "name@email.com",
+      "zh": "name@email.com"
+    },
+    {
+      "id": "Ava-XY-7vs",
+      "attr": "text",
+      "source": "PASSWORD",
+      "zh": "密码"
+    },
+    {
+      "id": "R77-TQ-lVT",
+      "attr": "placeholder",
+      "source": "••••••••",
+      "zh": "••••••••"
+    },
+    {
+      "id": "p9U-0q-Kn8",
+      "attr": "text",
+      "source": "Why do we need this?",
+      "zh": "为什么需要提供此信息？"
+    },
+    {
+      "id": "nDc-Zs-wnK",
+      "attr": "title",
+      "source": "Close",
+      "zh": "关闭"
+    },
+    {
+      "id": "i9V-3h-B8f",
+      "attr": "text",
+      "source": "1",
+      "zh": "1"
+    },
+    {
+      "id": "XKD-XH-eB0",
+      "attr": "text",
+      "source": "Launch SideStore",
+      "zh": "启动 SideStore"
+    },
+    {
+      "id": "6HP-Xh-sAH",
+      "attr": "text",
+      "source": "Leave SideStore running in the background on your idevice.",
+      "zh": "让 SideStore 在您的设备上后台运行。"
+    },
+    {
+      "id": "0LW-eE-qHa",
+      "attr": "text",
+      "source": "2",
+      "zh": "2"
+    },
+    {
+      "id": "esj-pD-D4A",
+      "attr": "text",
+      "source": "Connect to Wi-Fi and VPN",
+      "zh": "连接 Wi-Fi 和 VPN"
+    },
+    {
+      "id": "4rk-ge-FSj",
+      "attr": "text",
+      "source": "Enable LocalDevVPN and use Sidestore on the go.",
+      "zh": "启用 LocalDevVPN，随时随地使用 SideStore。"
+    },
+    {
+      "id": "nVr-El-Csi",
+      "attr": "text",
+      "source": "3",
+      "zh": "3"
+    },
+    {
+      "id": "JeJ-bk-UCA",
+      "attr": "text",
+      "source": "Download Apps",
+      "zh": "下载应用"
+    },
+    {
+      "id": "M7T-9j-uyt",
+      "attr": "text",
+      "source": "Browse and download apps directly from SideStore.",
+      "zh": "直接从 SideStore 浏览并下载应用。"
+    },
+    {
+      "id": "i2U-NL-plG",
+      "attr": "text",
+      "source": "4",
+      "zh": "4"
+    },
+    {
+      "id": "nvb-Aq-sYa",
+      "attr": "text",
+      "source": "Apps Refresh Automatically",
+      "zh": "自动刷新应用"
+    },
+    {
+      "id": "HU5-Hv-E3d",
+      "attr": "text",
+      "source": "Apps are refreshed in the background while you are on SideStore VPN!",
+      "zh": "连接 SideStore VPN 时，应用将在后台自动刷新！"
+    },
+    {
+      "id": "bCq-Jq-gf1",
+      "attr": "title",
+      "source": "How it works",
+      "zh": "工作原理"
+    },
+    {
+      "id": "5nk-NR-jtV",
+      "attr": "title",
+      "source": "Resign SideStore",
+      "zh": "重签名 SideStore"
+    },
+    {
+      "id": "6ip-34-gmM",
+      "attr": "text",
+      "source": "Team 1",
+      "zh": "团队 1"
+    },
+    {
+      "id": "knk-Wf-PKf",
+      "attr": "text",
+      "source": "Description",
+      "zh": "描述"
+    },
+    {
+      "id": "qxJ-Go-OPq",
+      "attr": "title",
+      "source": "Select a Team",
+      "zh": "选择团队"
+    }
+  ],
+  "AltStore/Components/AppBannerView.xib": [
+    {
+      "id": "mFe-zJ-eva",
+      "attr": "text",
+      "source": "App Name",
+      "zh": "应用名称"
+    },
+    {
+      "id": "oN5-vu-Dnw",
+      "attr": "text",
+      "source": "Developer",
+      "zh": "开发者"
+    },
+    {
+      "id": "Yd9-jw-faD",
+      "attr": "text",
+      "source": "Label",
+      "zh": "标签"
+    }
+  ],
+  "AltStore/My Apps/InstalledAppsCollectionHeaderView.xib": [
+    {
+      "id": "zhW-Re-WNf",
+      "attr": "text",
+      "source": "Installed",
+      "zh": "已安装"
+    }
+  ],
+  "AltStore/My Apps/UpdateCollectionViewCell.xib": [
+    {
+      "id": "rNs-2O-k3V",
+      "attr": "text",
+      "source": "Version Notes",
+      "zh": "版本说明"
+    }
+  ],
+  "AltStore/News/NewsCollectionViewCell.xib": [
+    {
+      "id": "AkN-BE-I1a",
+      "attr": "text",
+      "source": "Delta",
+      "zh": "Delta"
+    },
+    {
+      "id": "SHB-kk-YhL",
+      "attr": "text",
+      "source": "Label",
+      "zh": "标签"
+    }
+  ],
+  "AltStore/Settings/AboutPatreonHeaderView.xib": [
+    {
+      "id": "DTd-Yu-HXr",
+      "attr": "text",
+      "source": "SideTeam",
+      "zh": "SideTeam"
+    }
+  ],
+  "AltStore/Settings/Settings.storyboard": [
+    {
+      "id": "XFa-MY-7cV",
+      "attr": "text",
+      "source": "Follow SideStore for updates",
+      "zh": "关注 SideStore 获取更新"
+    },
+    {
+      "id": "5u7-mb-jJj",
+      "attr": "text",
+      "source": "Version 0.6.0",
+      "zh": "版本 0.6.0"
+    },
+    {
+      "id": "7lu-Yk-87t",
+      "attr": "text",
+      "source": "Sign in with Apple ID",
+      "zh": "使用 Apple ID 登录"
+    },
+    {
+      "id": "xvY-lN-Toz",
+      "attr": "text",
+      "source": "Name",
+      "zh": "名称"
+    },
+    {
+      "id": "CnN-M1-AYK",
+      "attr": "text",
+      "source": "Side Team",
+      "zh": "Side Team"
+    },
+    {
+      "id": "rAc-lQ-B1k",
+      "attr": "text",
+      "source": "Email",
+      "zh": "邮箱"
+    },
+    {
+      "id": "0uP-Cd-tNX",
+      "attr": "text",
+      "source": "sideteam@sidestore.io",
+      "zh": "sideteam@sidestore.io"
+    },
+    {
+      "id": "Sge-cM-Fw9",
+      "attr": "text",
+      "source": "Type",
+      "zh": "类型"
+    },
+    {
+      "id": "434-MW-Den",
+      "attr": "text",
+      "source": "Developers",
+      "zh": "开发者"
+    },
+    {
+      "id": "3Il-5a-5Zp",
+      "attr": "text",
+      "source": "Support the team",
+      "zh": "支持团队"
+    },
+    {
+      "id": "Y4l-PD-ev9",
+      "attr": "text",
+      "source": "Change App Icon",
+      "zh": "更改应用图标"
+    },
+    {
+      "id": "EbG-HB-IOn",
+      "attr": "text",
+      "source": "Background Refresh",
+      "zh": "后台刷新"
+    },
+    {
+      "id": "PCh-Up-aJJ",
+      "attr": "text",
+      "source": "Disable Idle Timeout",
+      "zh": "禁用闲置超时"
+    },
+    {
+      "id": "c6K-fI-CVr",
+      "attr": "text",
+      "source": "Allow Siri To Refresh Apps…",
+      "zh": "允许 Siri 刷新应用…"
+    },
+    {
+      "id": "W95-fD-NAd",
+      "attr": "text",
+      "source": "Disable App Limit",
+      "zh": "禁用应用数量限制"
+    },
+    {
+      "id": "2CC-iw-3bd",
+      "attr": "text",
+      "source": "How it works",
+      "zh": "工作原理"
+    },
+    {
+      "id": "hlt-Ch-lbl",
+      "attr": "text",
+      "source": "Health Check",
+      "zh": "健康检查"
+    },
+    {
+      "id": "vH6-7i-tCE",
+      "attr": "text",
+      "source": "View Error Log",
+      "zh": "查看错误日志"
+    },
+    {
+      "id": "stg-Ex-lbl",
+      "attr": "text",
+      "source": "Storage Explorer",
+      "zh": "存储浏览器"
+    },
+    {
+      "id": "j4e-Mz-DlL",
+      "attr": "text",
+      "source": "Clear Data Cache…",
+      "zh": "清除数据缓存…"
+    },
+    {
+      "id": "hRA-OK-Vjw",
+      "attr": "text",
+      "source": "Developers",
+      "zh": "开发者"
+    },
+    {
+      "id": "JAA-iZ-VGb",
+      "attr": "text",
+      "source": "SideStore Team",
+      "zh": "SideStore 团队"
+    },
+    {
+      "id": "oqY-wY-1Vf",
+      "attr": "text",
+      "source": "UI Designer",
+      "zh": "UI 设计师"
+    },
+    {
+      "id": "ylE-VL-7Fq",
+      "attr": "text",
+      "source": "Fabian (thdev)",
+      "zh": "Fabian (thdev)"
+    },
+    {
+      "id": "fGU-Fp-XgM",
+      "attr": "text",
+      "source": "Asset Designer",
+      "zh": "素材设计师"
+    },
+    {
+      "id": "hId-3P-41T",
+      "attr": "text",
+      "source": "Chris (LitRitt)",
+      "zh": "Chris (LitRitt)"
+    },
+    {
+      "id": "D6b-cd-pVK",
+      "attr": "text",
+      "source": "Licenses",
+      "zh": "开源许可"
+    },
+    {
+      "id": "1B5-BJ-Rkb",
+      "attr": "text",
+      "source": "Enable Beta Updates",
+      "zh": "启用测试版更新"
+    },
+    {
+      "id": "nSh-L8-ca0",
+      "attr": "text",
+      "source": "Beta Updates Track",
+      "zh": "测试版更新通道"
+    },
+    {
+      "id": "pMI-Aj-nQF",
+      "attr": "text",
+      "source": "Send Feedback",
+      "zh": "发送反馈"
+    },
+    {
+      "id": "sni-07-q0M",
+      "attr": "text",
+      "source": "View Refresh Attempts",
+      "zh": "查看刷新尝试记录"
+    },
+    {
+      "id": "46q-DB-5nc",
+      "attr": "text",
+      "source": "SideJITServer",
+      "zh": "SideJITServer"
+    },
+    {
+      "id": "ysS-9s-dXm",
+      "attr": "text",
+      "source": "Pairing File Management",
+      "zh": "配对文件管理"
+    },
+    {
+      "id": "eds-Dj-36y",
+      "attr": "text",
+      "source": "Anisette Servers",
+      "zh": "Anisette 服务器"
+    },
+    {
+      "id": "iie-Nj-lki",
+      "attr": "text",
+      "source": "Connection Config",
+      "zh": "连接配置"
+    },
+    {
+      "id": "ntw-Dsc-lbl",
+      "attr": "text",
+      "source": "Network Discovery (mDNS)",
+      "zh": "网络发现 (mDNS)"
+    },
+    {
+      "id": "dev-Svc-lbl",
+      "attr": "text",
+      "source": "Developer Portal Services",
+      "zh": "开发者门户服务"
+    },
+    {
+      "id": "prf-Mg-lbl",
+      "attr": "text",
+      "source": "Profiles Management",
+      "zh": "描述文件管理"
+    },
+    {
+      "id": "crt-Mg-lbl",
+      "attr": "text",
+      "source": "Certificate Management",
+      "zh": "证书管理"
+    },
+    {
+      "id": "bkp-Rst-lbl",
+      "attr": "text",
+      "source": "Backup & Restore",
+      "zh": "备份与恢复"
+    },
+    {
+      "id": "usr-Cst-lbl",
+      "attr": "text",
+      "source": "User Customizations",
+      "zh": "用户自定义"
+    },
+    {
+      "id": "Fq5-2u-Lge",
+      "attr": "text",
+      "source": "Prompt AppExtns Customization",
+      "zh": "提示自定义应用扩展"
+    },
+    {
+      "id": "jFh-36-AP2",
+      "attr": "text",
+      "source": "Developer Options",
+      "zh": "开发者选项"
+    },
+    {
+      "id": "exp-feat-label",
+      "attr": "text",
+      "source": "Experimental Features",
+      "zh": "实验性功能"
+    },
+    {
+      "id": "Ddg-UQ-KJ8",
+      "attr": "title",
+      "source": "Settings",
+      "zh": "设置"
+    },
+    {
+      "id": "LP8-gK-WC2",
+      "attr": "title",
+      "source": "Settings",
+      "zh": "设置"
+    },
+    {
+      "id": "SWb-Of-t97",
+      "attr": "text",
+      "source": "Success",
+      "zh": "成功"
+    },
+    {
+      "id": "4MX-Qv-H8V",
+      "attr": "text",
+      "source": "Date",
+      "zh": "日期"
+    },
+    {
+      "id": "7L1-AA-2yo",
+      "attr": "text",
+      "source": "Could not connect to SideStore.",
+      "zh": "无法连接到 SideStore。"
+    },
+    {
+      "id": "V4e-K5-U8O",
+      "attr": "title",
+      "source": "Refresh Attempts",
+      "zh": "刷新尝试记录"
+    },
+    {
+      "id": "JcT-wX-zay",
+      "attr": "title",
+      "source": "Software Licenses",
+      "zh": "软件许可"
+    },
+    {
+      "id": "uUV-1f-xEq",
+      "attr": "title",
+      "source": "Support us",
+      "zh": "支持我们"
+    },
+    {
+      "id": "Na7-uj-XYZ",
+      "attr": "text",
+      "source": "Success",
+      "zh": "成功"
+    },
+    {
+      "id": "SGf-pP-RL0",
+      "attr": "text",
+      "source": "Date",
+      "zh": "日期"
+    },
+    {
+      "id": "R5a-wv-xHd",
+      "attr": "text",
+      "source": "Error Code",
+      "zh": "错误代码"
+    },
+    {
+      "id": "1df-ri-hKN",
+      "attr": "text",
+      "source": "Error Description",
+      "zh": "错误描述"
+    },
+    {
+      "id": "a1p-3W-bSi",
+      "attr": "title",
+      "source": "Error Log",
+      "zh": "错误日志"
+    },
+    {
+      "id": "BnQ-Eh-1gC",
+      "attr": "title",
+      "source": "trash",
+      "zh": "清除"
+    },
+    {
+      "id": "1cD-4y-vTJ",
+      "attr": "title",
+      "source": "console",
+      "zh": "控制台"
+    }
+  ],
+  "AltStore/Settings/SettingsHeaderFooterView.xib": [
+    {
+      "id": "rLj-Ff-ZTt",
+      "attr": "text",
+      "source": "ACCOUNT",
+      "zh": "账户"
+    },
+    {
+      "id": "eet-Hi-RU4",
+      "attr": "text",
+      "source": "Label",
+      "zh": "标签"
+    }
+  ],
+  "AltStore/Sources/Components/SourceHeaderView.xib": [
+    {
+      "id": "FsG-Wm-6xP",
+      "attr": "text",
+      "source": "Source Name",
+      "zh": "软件源名称"
+    },
+    {
+      "id": "IUL-qI-QAg",
+      "attr": "text",
+      "source": "Subtitle",
+      "zh": "副标题"
+    }
+  ],
+  "AltStore/Sources/Sources.storyboard": [
+    {
+      "id": "xPv-dc-X4v",
+      "attr": "title",
+      "source": "Sources",
+      "zh": "软件源"
+    },
+    {
+      "id": "rUb-ON-AON",
+      "attr": "title",
+      "source": "All Apps",
+      "zh": "全部应用"
+    },
+    {
+      "id": "FGB-cd-Vkd",
+      "attr": "title",
+      "source": "All News",
+      "zh": "全部动态"
+    },
+    {
+      "id": "Wm7-1O-FkD",
+      "attr": "title",
+      "source": "Sources",
+      "zh": "软件源"
+    },
+    {
+      "id": "Noh-fc-wch",
+      "attr": "title",
+      "source": "Sources",
+      "zh": "软件源"
+    },
+    {
+      "id": "v46-dC-g7e",
+      "attr": "title",
+      "source": "Add Source",
+      "zh": "添加软件源"
+    }
+  ],
+  "AltStore/iOS/Main.storyboard": [
+    {
+      "id": "pUx-6k-rtr",
+      "attr": "title",
+      "source": "Browse",
+      "zh": "浏览"
+    },
+    {
+      "id": "DTD-1Y-76c",
+      "attr": "text",
+      "source": "Delta",
+      "zh": "Delta"
+    },
+    {
+      "id": "BsL-O2-UjD",
+      "attr": "text",
+      "source": "Classic games in your pocket",
+      "zh": "装进口袋的经典游戏"
+    },
+    {
+      "id": "Pyt-8D-BZA",
+      "attr": "text",
+      "source": "Hello Me",
+      "zh": "你好"
+    },
+    {
+      "id": "obM-TM-y2E",
+      "attr": "text",
+      "source": "What's New",
+      "zh": "新功能"
+    },
+    {
+      "id": "wGD-mS-8fO",
+      "attr": "text",
+      "source": "2w ago",
+      "zh": "2 周前"
+    },
+    {
+      "id": "7E0-TV-G4l",
+      "attr": "text",
+      "source": "Version 4.4.2",
+      "zh": "版本 4.4.2"
+    },
+    {
+      "id": "DgM-bD-bBY",
+      "attr": "text",
+      "source": "50.4 MB",
+      "zh": "50.4 MB"
+    },
+    {
+      "id": "dj7-G8-GFv",
+      "attr": "text",
+      "source": "Permissions",
+      "zh": "权限"
+    },
+    {
+      "id": "sWo-Y8-aF6",
+      "attr": "title",
+      "source": "App",
+      "zh": "应用"
+    },
+    {
+      "id": "OZm-Le-7oJ",
+      "attr": "title",
+      "source": "Settings",
+      "zh": "设置"
+    },
+    {
+      "id": "ZxL-Ws-lJO",
+      "attr": "title",
+      "source": "News",
+      "zh": "动态"
+    },
+    {
+      "id": "Uwh-Bg-Ymq",
+      "attr": "title",
+      "source": "Browse",
+      "zh": "浏览"
+    },
+    {
+      "id": "4gT-9u-k7y",
+      "attr": "title",
+      "source": "My Apps",
+      "zh": "我的应用"
+    },
+    {
+      "id": "z04-yg-x1t",
+      "attr": "text",
+      "source": "No Updates Available",
+      "zh": "暂无可用更新"
+    },
+    {
+      "id": "LLv-8I-6Of",
+      "attr": "text",
+      "source": "5/10 App IDs",
+      "zh": "5/10 App IDs"
+    },
+    {
+      "id": "zLJ-Cg-ijh",
+      "attr": "title",
+      "source": "My Apps",
+      "zh": "我的应用"
+    },
+    {
+      "id": "y1A-Nm-mw7",
+      "attr": "title",
+      "source": "App IDs",
+      "zh": "App IDs"
+    },
+    {
+      "id": "83Z-Ih-nOW",
+      "attr": "text",
+      "source": "App IDs Description",
+      "zh": "App IDs 说明"
+    },
+    {
+      "id": "Zna-7n-kBz",
+      "attr": "text",
+      "source": "10 App IDs",
+      "zh": "10 个 App ID"
+    },
+    {
+      "id": "3Co-uv-Fhb",
+      "attr": "title",
+      "source": "App IDs",
+      "zh": "App IDs"
+    },
+    {
+      "id": "fVN-ed-uO1",
+      "attr": "title",
+      "source": "News",
+      "zh": "动态"
+    },
+    {
+      "id": "Q7y-bi-ncT",
+      "attr": "title",
+      "source": "Item",
+      "zh": "项目"
+    }
+  ]
+}

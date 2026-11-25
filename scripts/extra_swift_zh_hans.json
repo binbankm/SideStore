@@ -1,0 +1,4698 @@
+{
+  "AltStore/App Detail/AppContentViewController.swift": [
+    {
+      "find": ".text = \"nil\"",
+      "replace": ".text = \"无\""
+    }
+  ],
+  "AltStore/App Detail/AppDetailCollectionViewController.swift": [
+    {
+      "find": "title: \"Privacy\"",
+      "replace": "title: \"隐私权限\""
+    }
+  ],
+  "AltStore/App Detail/AppPermissionsCard.swift": [
+    {
+      "find": "title: \"Privacy\"",
+      "replace": "title: \"隐私权限\""
+    },
+    {
+      "find": "\"Delta may request access to the following:\"",
+      "replace": "\"应用可能会请求访问以下权限：\""
+    }
+  ],
+  "AltStore/Intents/App Intents/RefreshAllAppsIntent.swift": [
+    {
+      "find": "title: \"Refresh All Apps\"",
+      "replace": "title: \"刷新所有应用\""
+    }
+  ],
+  "AltStore/LaunchViewController.swift": [
+    {
+      "find": "UIAlertController(title: \"Error launching SideStore\"",
+      "replace": "UIAlertController(title: \"启动 SideStore 出错\""
+    }
+  ],
+  "AltStore/My Apps/MyAppsViewController.swift": [
+    {
+      "find": "\"Sideload IPA\"",
+      "replace": "\"侧载 IPA\""
+    },
+    {
+      "find": "\"Import Backup successful for \\(installedApp.name)\"",
+      "replace": "\"已成功为 \\(installedApp.name) 导入备份\""
+    },
+    {
+      "find": "\"Use 'Restore Backup' option to restore data from this imported backup\"",
+      "replace": "\"使用“恢复备份”选项可从导入的备份恢复数据\""
+    },
+    {
+      "find": "\"Export App Backup\"",
+      "replace": "\"导出应用备份\""
+    },
+    {
+      "find": "\"Upload Custom App Icon\"",
+      "replace": "\"上传自定义应用图标\""
+    }
+  ],
+  "AltStore/Settings/AnisetteServerList.swift": [
+    {
+      "find": ".navigationTitle(\"Anisette Servers\")",
+      "replace": ".navigationTitle(\"Anisette 服务器\")"
+    },
+    {
+      "find": "Button(\"Export Current\"",
+      "replace": "Button(\"导出当前\""
+    },
+    {
+      "find": "Button(\"Export Original\"",
+      "replace": "Button(\"导出原始\""
+    },
+    {
+      "find": "Button(\"Reset Catalog\"",
+      "replace": "Button(\"重置目录\""
+    },
+    {
+      "find": "Button(\"Clear\"",
+      "replace": "Button(\"清除\""
+    },
+    {
+      "find": "Label(\"Retry Connection\", systemImage:",
+      "replace": "Label(\"重试连接\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export Current\", systemImage:",
+      "replace": "Label(\"导出当前\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export Original\", systemImage:",
+      "replace": "Label(\"导出原始\", systemImage:"
+    },
+    {
+      "find": "Label(\"Reset Catalog\", systemImage:",
+      "replace": "Label(\"重置目录\", systemImage:"
+    },
+    {
+      "find": "Label(\"Reset Source to Default\", systemImage:",
+      "replace": "Label(\"重置源为默认\", systemImage:"
+    },
+    {
+      "find": "Label(\"Enable Auto Rotation\", systemImage:",
+      "replace": "Label(\"启用自动轮换\", systemImage:"
+    },
+    {
+      "find": ".alert(\"Clear Imported File?\"",
+      "replace": ".alert(\"清除已导入的文件？\""
+    },
+    {
+      "find": ".alert(\"Import Server Catalog?\"",
+      "replace": ".alert(\"导入服务器目录？\""
+    },
+    {
+      "find": ".confirmationDialog(\"Options\"",
+      "replace": ".confirmationDialog(\"选项\""
+    },
+    {
+      "find": "NSLocalizedDescriptionKey: \"Server list fetch timed out after 5 seconds.\"",
+      "replace": "NSLocalizedDescriptionKey: \"获取服务器列表超时（超过 5 秒）。\""
+    },
+    {
+      "find": "\"No Internet Connection. Please check your Wi-Fi or cellular network.\"",
+      "replace": "\"无网络连接，请检查你的 Wi-Fi 或蜂窝网络。\""
+    },
+    {
+      "find": "\"Connection timed out (5s limit) while reaching '\\(self.source)'.\"",
+      "replace": "\"连接“\\(self.source)”超时（5 秒限制）。\""
+    },
+    {
+      "find": "\"Failed to fetch catalog from '\\(self.source)': \\(error.localizedDescription)\"",
+      "replace": "\"从“\\(self.source)”获取目录失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Failed to import file: \\(error.localizedDescription)\"",
+      "replace": "\"导入文件失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Failed to reset: \\(error.localizedDescription)\"",
+      "replace": "\"重置失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Reaching catalog source '\\(viewModel.source)'...\"",
+      "replace": "\"正在连接目录源“\\(viewModel.source)”…\""
+    },
+    {
+      "find": "\"No Internet Connection\"",
+      "replace": "\"无网络连接\""
+    },
+    {
+      "find": "\"Could Not Reach Servers\"",
+      "replace": "\"无法连接服务器\""
+    },
+    {
+      "find": "\"No servers available.\"",
+      "replace": "\"没有可用的服务器。\""
+    },
+    {
+      "find": "\"Currently using imported file '\\(viewModel.importedFileName ?? \"custom.json\")'. Press and hold row to export.\"",
+      "replace": "\"当前正在使用导入的文件“\\(viewModel.importedFileName ?? \"custom.json\")”。长按条目可导出。\""
+    },
+    {
+      "find": "\"Import Anisette Servers JSON\"",
+      "replace": "\"导入 Anisette 服务器列表 JSON\""
+    },
+    {
+      "find": "\"Hide Hidden\"",
+      "replace": "\"隐藏已隐藏项\""
+    },
+    {
+      "find": "\"Show Hidden\"",
+      "replace": "\"显示已隐藏项\""
+    },
+    {
+      "find": "\"Export Anisette Servers JSON\"",
+      "replace": "\"导出 Anisette 服务器列表 JSON\""
+    },
+    {
+      "find": "\"Failed to read file: \\(error.localizedDescription)\"",
+      "replace": "\"读取文件失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Import failed: \\(error.localizedDescription)\"",
+      "replace": "\"导入失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Are you sure you want to remove the imported catalog '\\(viewModel.importedFileName ?? \"custom.json\")' and return to the default server URL?\"",
+      "replace": "\"确定要移除导入的目录“\\(viewModel.importedFileName ?? \"custom.json\")”并恢复使用默认服务器地址吗？\""
+    },
+    {
+      "find": "\"This will replace your current server catalog with the servers from '\\(pendingImportName ?? \"selected file\")'. Do you want to proceed?\"",
+      "replace": "\"这将使用“\\(pendingImportName ?? \"selected file\")”中的服务器替换当前目录，是否继续？\""
+    },
+    {
+      "find": "Label(\"Retry Connection\"",
+      "replace": "Label(\"重试连接\""
+    },
+    {
+      "find": "Label(item.isHidden ? \"Unhide\" : \"Hide\"",
+      "replace": "Label(item.isHidden ? \"取消隐藏\" : \"隐藏\""
+    },
+    {
+      "find": "Label(\"Export Current\"",
+      "replace": "Label(\"导出当前\""
+    },
+    {
+      "find": "Label(\"Export Original\"",
+      "replace": "Label(\"导出原始\""
+    },
+    {
+      "find": "Label(\"Reset Catalog\"",
+      "replace": "Label(\"重置目录\""
+    },
+    {
+      "find": "Label(\"Reset Source to Default\"",
+      "replace": "Label(\"重置源为默认\""
+    },
+    {
+      "find": "Label(\"Enable Auto Rotation\"",
+      "replace": "Label(\"启用自动轮换\""
+    },
+    {
+      "find": "Label(viewModel.showHiddenServers ? \"Hide Hidden\" : \"Show Hidden\"",
+      "replace": "Label(viewModel.showHiddenServers ? \"隐藏已隐藏项\" : \"显示已隐藏项\""
+    }
+  ],
+  "AltStore/Settings/SettingsViewController.swift": [
+    {
+      "find": "UIAlertController(title: \"Send Feedback\"",
+      "replace": "UIAlertController(title: \"发送反馈\""
+    },
+    {
+      "find": "message: \"Choose a method to send feedback:\"",
+      "replace": "message: \"请选择发送反馈的方式：\""
+    },
+    {
+      "find": "UIAlertAction(title: \"Send Email\"",
+      "replace": "UIAlertAction(title: \"发送电子邮件\""
+    },
+    {
+      "find": "\"Copied! \"",
+      "replace": "\"已复制！\""
+    },
+    {
+      "find": "\"Database Delete Scheduled on Next Launch\"",
+      "replace": "\"已安排在下次启动时删除数据库\""
+    },
+    {
+      "find": "\"App is closing in \\(time) seconds...\"",
+      "replace": "\"应用将在 \\(time) 秒后关闭…\""
+    },
+    {
+      "find": "\"You will need to log back into Apple ID in SideStore.\"",
+      "replace": "\"你需要在 SideStore 中重新登录 Apple ID。\""
+    },
+    {
+      "find": "UIAlertAction(title: \"Cancel\"",
+      "replace": "UIAlertAction(title: \"取消\""
+    }
+  ],
+  "AltStore/Sources/SourcesViewController.swift": [
+    {
+      "find": "navigationItem.title = \"Sources\"",
+      "replace": "navigationItem.title = \"软件源\""
+    }
+  ],
+  "AltWidget/Components/UnsupportedWidgetView.swift": [
+    {
+      "find": "\"Requires \\(requiredVersion) or later\"",
+      "replace": "\"需要 \\(requiredVersion) 或更高版本\""
+    }
+  ],
+  "AltWidget/Widgets/ActiveAppsWidget.swift": [
+    {
+      "find": "\"Active Apps\"",
+      "replace": "\"活跃应用\""
+    },
+    {
+      "find": "\"View remaining days until your active apps expire. Tap the countdown timers to refresh them in the background.\"",
+      "replace": "\"查看活跃应用的剩余有效天数。轻点倒计时可在后台刷新。\""
+    },
+    {
+      "find": "\"Requires iOS 17 or later.\"",
+      "replace": "\"需要 iOS 17 或更高版本。\""
+    },
+    {
+      "find": "\"Expires in \\(daysRemaining) \"",
+      "replace": "\"还有 \\(daysRemaining) \""
+    },
+    {
+      "find": "Text(\"day\") : Text(\"days\")",
+      "replace": "Text(\"天过期\") : Text(\"天过期\")"
+    }
+  ],
+  "AltWidget/Widgets/AppDetailWidget.swift": [
+    {
+      "find": "\"App Status\"",
+      "replace": "\"应用状态\""
+    },
+    {
+      "find": "\"View remaining days until your sideloaded apps expire. Tap the countdown timer to refresh them in the background.\"",
+      "replace": "\"查看侧载应用的剩余有效天数。轻点倒计时可在后台刷新。\""
+    },
+    {
+      "find": "\"Expires in\\n\"",
+      "replace": "\"剩余有效期\\n\""
+    }
+  ],
+  "AltWidget/Widgets/LockScreenWidget.swift": [
+    {
+      "find": "\"AltWidget (Text)\"",
+      "replace": "\"SideStore 小组件（文本）\""
+    },
+    {
+      "find": "\"AltWidget (Icon)\"",
+      "replace": "\"SideStore 小组件（图标）\""
+    },
+    {
+      "find": "\"View remaining days until SideStore expires.\"",
+      "replace": "\"查看 SideStore 剩余有效天数。\""
+    },
+    {
+      "find": "\"Requires iOS 16 or later.\"",
+      "replace": "\"需要 iOS 16 或更高版本。\""
+    },
+    {
+      "find": "daysRemaining == 1 ? \"DAY\" : \"DAYS\"",
+      "replace": "daysRemaining == 1 ? \"天\" : \"天\""
+    }
+  ],
+  "SideStore/Core/Anisette/AnisetteConfigManager.swift": [
+    {
+      "find": "NSLocalizedDescriptionKey: \"Invalid JSON format.\"",
+      "replace": "NSLocalizedDescriptionKey: \"JSON 格式无效。\""
+    },
+    {
+      "find": "NSLocalizedDescriptionKey: \"Missing or empty required keys (clientInfo, userAgent).\"",
+      "replace": "NSLocalizedDescriptionKey: \"缺少必需的键或值为空（clientInfo、userAgent）。\""
+    }
+  ],
+  "SideStore/Core/Anisette/AnisetteServersManager.swift": [
+    {
+      "find": "NSLocalizedDescriptionKey: \"Invalid JSON format in imported file.\"",
+      "replace": "NSLocalizedDescriptionKey: \"导入文件中的 JSON 格式无效。\""
+    },
+    {
+      "find": "NSLocalizedDescriptionKey: \"No raw imported backup found to reset.\"",
+      "replace": "NSLocalizedDescriptionKey: \"未找到可用于重置的原始导入备份。\""
+    }
+  ],
+  "SideStore/Core/Certificates/CertificateASN1Parser.swift": [
+    {
+      "find": "\"Developer Certificate\"",
+      "replace": "\"开发者证书\""
+    },
+    {
+      "find": "\"Root CA\"",
+      "replace": "\"根证书 (Root CA)\""
+    },
+    {
+      "find": "\"Intermediate CA\"",
+      "replace": "\"中间证书 (Intermediate CA)\""
+    }
+  ],
+  "SideStore/Core/Certificates/OCSPValidator.swift": [
+    {
+      "find": "\"The certificate has expired.\"",
+      "replace": "\"证书已过期。\""
+    },
+    {
+      "find": "\"The certificate was revoked by Apple.\"",
+      "replace": "\"证书已被 Apple 吊销。\""
+    },
+    {
+      "find": "\"Failed to parse the certificate data.\"",
+      "replace": "\"解析证书数据失败。\""
+    },
+    {
+      "find": "\"Failed to fetch Apple WWDR intermediate certificate.\"",
+      "replace": "\"获取 Apple WWDR 中间证书失败。\""
+    },
+    {
+      "find": "\"OCSP server error: \\(message)\"",
+      "replace": "\"OCSP 服务器错误：\\(message)\""
+    },
+    {
+      "find": "\"Network error: \\(error.localizedDescription)\"",
+      "replace": "\"网络错误：\\(error.localizedDescription)\""
+    }
+  ],
+  "SideStore/Core/DeviceApi/MinimuxerWrapper.swift": [
+    {
+      "find": "\"WireGuard VPN is not supported with Cellular Refresh because iOS pauses the WireGuard tunnel when cellular data is toggled off.\"",
+      "replace": "\"蜂窝网络刷新不支持 WireGuard VPN，因为关闭蜂窝数据时 iOS 会暂停 WireGuard 隧道。\""
+    },
+    {
+      "find": "\"Minimuxer returned empty UDID.\"",
+      "replace": "\"Minimuxer 返回了空的 UDID。\""
+    },
+    {
+      "find": "\"Missing pairing file for \\(proto.rawValue)\"",
+      "replace": "\"缺少 \\(proto.rawValue) 的配对文件\""
+    },
+    {
+      "find": "\"Wireless pairing is not supported on simulator.\"",
+      "replace": "\"模拟器不支持无线配对。\""
+    }
+  ],
+  "SideStore/Core/JIT/SideJITManager.swift": [
+    {
+      "find": "UIAlertController(\n            title: \"SideJITServer Detected\"",
+      "replace": "UIAlertController(\n            title: \"检测到 SideJITServer\""
+    },
+    {
+      "find": "message: \"Would you like to enable SideJITServer\"",
+      "replace": "message: \"是否启用 SideJITServer\""
+    },
+    {
+      "find": "UIAlertAction(title: \"Cancel\"",
+      "replace": "UIAlertAction(title: \"取消\""
+    }
+  ],
+  "SideStore/Core/Operations/Errors/OperationError.swift": [
+    {
+      "find": "\"There are no active sideloaded apps to refresh.\"",
+      "replace": "\"没有需要刷新的活跃侧载应用。\""
+    },
+    {
+      "find": "\"There are no SideStore sources.\"",
+      "replace": "\"没有 SideStore 软件源。\""
+    },
+    {
+      "find": "\"You are not signed in.\"",
+      "replace": "\"你尚未登录。\""
+    },
+    {
+      "find": "\"The operation timed out.\"",
+      "replace": "\"操作超时。\""
+    },
+    {
+      "find": "\"Unable to connect to SideJITServer. Please check that you are on the same Wi-Fi of and your Firewall has been set correctly on your server.\"",
+      "replace": "\"无法连接到 SideJITServer。请检查是否处于同一 Wi-Fi 下，以及服务器防火墙设置是否正确。\""
+    },
+    {
+      "find": "\"SideJITServer is unable to connect to your iDevice. Please make sure you have paired your iDevice by running 'SideJITServer -y', or try refreshing SideJITServer from Settings.\"",
+      "replace": "\"SideJITServer 无法连接到你的 iOS 设备。请确保已运行“SideJITServer -y”完成配对，或尝试在设置中刷新 SideJITServer。\""
+    },
+    {
+      "find": "\"The operation returned an unknown result.\"",
+      "replace": "\"操作返回了未知结果。\""
+    },
+    {
+      "find": "\"An error occurred while clearing the cache: \\(errors.joined(separator: \"\\n\"))\"",
+      "replace": "\"清理缓存时出错：\\(errors.joined(separator: \"\\n\"))\""
+    },
+    {
+      "find": "\"The signing certificate used to install “\\(appName)” has expired. Please re-sign or reinstall the app.\"",
+      "replace": "\"用于安装“\\(appName)”的签名证书已过期。请重新签名或重新安装该应用。\""
+    },
+    {
+      "find": "\"The signing certificate used to install “\\(appName)” was revoked on the Apple Developer portal. Please re-sign or reinstall the app.\"",
+      "replace": "\"用于安装“\\(appName)”的签名证书已在 Apple Developer 门户上被吊销。请重新签名或重新安装该应用。\""
+    },
+    {
+      "find": "\"Your active custom/third-party signing certificate (Team: \\(activeTeam)) has expired.\\n\\nIf you did not intend to use a custom certificate, please reset it in Settings -> Advanced -> Certificates.\"",
+      "replace": "\"你当前使用的自定义/第三方签名证书（团队：\\(activeTeam)）已过期。\\n\\n如果无意使用自定义证书，请在“设置 -> 高级 -> 证书”中重置。\""
+    },
+    {
+      "find": "\"Your active custom/third-party signing certificate (Team: \\(activeTeam)) was revoked on the Developer Portal.\\n\\nIf you did not intend to use a custom certificate, please reset it in Settings -> Advanced -> Certificates.\"",
+      "replace": "\"你当前使用的自定义/第三方签名证书（团队：\\(activeTeam)）已在开发者门户上被吊销。\\n\\n如果无意使用自定义证书，请在“设置 -> 高级 -> 证书”中重置。\""
+    },
+    {
+      "find": "\"The current pairing file is invalid. Reason: \\(reason)\\n\\nPlease make sure to input a valid pairing file! If the issue persists, replace your pairing with iloader or idevice_pair.\"",
+      "replace": "\"当前配对文件无效。原因：\\(reason)\\n\\n请确保导入有效的配对文件！如果问题持续，请使用 iloader 或 idevice_pair 重新生成配对文件。\""
+    },
+    {
+      "find": "\"Invalid parameters: \\n\\(msg)\"",
+      "replace": "\"无效参数：\\n\\(msg)\""
+    },
+    {
+      "find": "\"Invalid server response: \\(reason)\"",
+      "replace": "\"服务器响应无效：\\(reason)\""
+    },
+    {
+      "find": "\"VPN Connection Error:\\n\\(reason)\\n\\nPlease make sure LocalDevVPN is connected and running properly.\"",
+      "replace": "\"VPN 连接错误：\\n\\(reason)\\n\\n请确保 LocalDevVPN 已连接并正常运行。\""
+    },
+    {
+      "find": "\"Minimuxer has not been started yet: \\(reason)\\n\\nPlease complete pairing or start minimuxer before performing operations.\"",
+      "replace": "\"Minimuxer 尚未启动：\\(reason)\\n\\n请在执行操作前完成配对或启动 minimuxer。\""
+    },
+    {
+      "find": "\"The app bundle could not be found: \\(reason)\"",
+      "replace": "\"找不到应用包：\\(reason)\""
+    },
+    {
+      "find": "\"SideStore's shared app group “\\(name)” could not be accessed.\"",
+      "replace": "\"无法访问 SideStore 的共享 App Group“\\(name)”。\""
+    },
+    {
+      "find": "\"A provisioning profile for the app could not be found: \\(reason)\"",
+      "replace": "\"找不到该应用的描述文件：\\(reason)\""
+    },
+    {
+      "find": "\"No supported update could be found for “\\(appName)”.\"",
+      "replace": "\"未找到适用于“\\(appName)”的受支持更新。\""
+    },
+    {
+      "find": "\"Network Connection Error:\\n\\(reason)\\n\\nPlease connect to Wi-Fi before attempting further operations.\"",
+      "replace": "\"网络连接错误：\\n\\(reason)\\n\\n请连接 Wi-Fi 后再尝试后续操作。\""
+    },
+    {
+      "find": "\"SideStore is unable to reach the device endpoint:\\n\\(reason)\\n\\nPlease check your Connection Configuration in Settings.\"",
+      "replace": "\"SideStore 无法连接到设备端点：\\n\\(reason)\\n\\n请检查设置中的连接配置。\""
+    },
+    {
+      "find": "\"Device is not reachable at the specified IP or Endpoint.\"",
+      "replace": "\"无法通过指定的 IP 或端点连接到设备。\""
+    },
+    {
+      "find": "\"SideStore was denied permission to launch \\(name).\"",
+      "replace": "\"SideStore 没有权限启动 \\(name)。\""
+    },
+    {
+      "find": "\"Pairing Required: \\(reason)\\n\\nWithout a valid pairing file, SideStore operations cannot connect to your device. Please pair your device or import a valid pairing file.\"",
+      "replace": "\"需要配对：\\(reason)\\n\\n没有有效的配对文件，SideStore 无法连接到你的设备。请先配对设备或导入有效的配对文件。\""
+    },
+    {
+      "find": "\"Your pledge is no longer active. Please renew it to continue using \\(appName) normally.\"",
+      "replace": "\"你的赞助订阅已失效，请续订以继续正常使用 \\(appName)。\""
+    },
+    {
+      "find": "\"An error occurred while using SideJIT: \\(error)\"",
+      "replace": "\"使用 SideJIT 时出错：\\(error)\""
+    },
+    {
+      "find": "\"SideStore could not determine this device's UDID: \\(reason)\\n\\nPlease replace your pairing using iloader or idevice_pair.\"",
+      "replace": "\"SideStore 无法获取此设备的 UDID：\\(reason)\\n\\n请使用 iloader 或 idevice_pair 重新生成配对文件。\""
+    }
+  ],
+  "SideStore/Core/Operations/PipelineOperations/RemoveAppExtensionsOperation.swift": [
+    {
+      "find": "return \"Prompt User\"",
+      "replace": "return \"询问用户\""
+    },
+    {
+      "find": "return \"Remove All\"",
+      "replace": "return \"全部移除\""
+    },
+    {
+      "find": "return \"Keep All\"",
+      "replace": "return \"全部保留\""
+    },
+    {
+      "find": "return \"Use Main Profile\"",
+      "replace": "return \"使用主描述文件\""
+    }
+  ],
+  "SideStore/DeepLinks/InstallAppDialog.swift": [
+    {
+      "find": "return \"Prompt User\"",
+      "replace": "return \"询问用户\""
+    },
+    {
+      "find": "return \"Files App\"",
+      "replace": "return \"文件 App\""
+    },
+    {
+      "find": "return \"Web Upload\"",
+      "replace": "return \"网页上传\""
+    }
+  ],
+  "SideStore/Handlers/PipelineHandler.swift": [
+    {
+      "find": "UIAlertController(\n                    title: \"Finish Refresh\"",
+      "replace": "UIAlertController(\n                    title: \"完成刷新\""
+    },
+    {
+      "find": "\"Upload Custom App Icon\"",
+      "replace": "\"上传自定义应用图标\""
+    }
+  ],
+  "SideStore/Handlers/SignInFlowHandler.swift": [
+    {
+      "find": "UIAlertController(title: \"WARNING: Outdated anisette server\"",
+      "replace": "UIAlertController(title: \"警告：Anisette 服务器版本过旧\""
+    },
+    {
+      "find": "message: \"We've detected you are using an older anisette server. Using this server has a higher likelihood of locking your account and causing other issues. Are you sure you want to continue?\"",
+      "replace": "message: \"检测到您正在使用较旧版本的 Anisette 服务器。继续使用该服务器可能会增加账号被锁定的风险并引发其他问题，确定要继续吗？\""
+    },
+    {
+      "find": "\"Continue Without Revoking\"",
+      "replace": "\"不吊销并继续\""
+    },
+    {
+      "find": "\"Revoke Selected (\\(initialCount))\"",
+      "replace": "\"吊销所选 (\\(initialCount))\""
+    },
+    {
+      "find": "\"Revoke Selected (\\(selected.count))\"",
+      "replace": "\"吊销所选 (\\(selected.count))\""
+    },
+    {
+      "find": "UIAlertAction(title: \"Cancel\"",
+      "replace": "UIAlertAction(title: \"取消\""
+    }
+  ],
+  "SideStore/Utils/common/FileOutputStream.swift": [
+    {
+      "find": "NSLocalizedDescriptionKey: \"Within 10-second cooldown window\"",
+      "replace": "NSLocalizedDescriptionKey: \"处于 10 秒冷却时间内\""
+    },
+    {
+      "find": "NSLocalizedDescriptionKey: \"Failed to recreate file handle via provider\"",
+      "replace": "NSLocalizedDescriptionKey: \"无法通过提供程序重新创建文件句柄\""
+    }
+  ],
+  "SideStore/Utils/importexport/ImportExport.swift": [
+    {
+      "find": "\"Invalid password.\"",
+      "replace": "\"密码无效。\""
+    },
+    {
+      "find": "\"Incorrect password or corrupted backup file.\"",
+      "replace": "\"密码错误或备份文件已损坏。\""
+    },
+    {
+      "find": "\"File password cannot be the same as Apple ID password stored in secure keychain.\"",
+      "replace": "\"文件密码不能与钥匙串中保存的 Apple ID 密码相同。\""
+    },
+    {
+      "find": "\"The backup file format is invalid.\"",
+      "replace": "\"备份文件格式无效。\""
+    },
+    {
+      "find": "\"Account or signing data is missing.\"",
+      "replace": "\"缺少账号或签名数据。\""
+    },
+    {
+      "find": "\"Import App Backup\"",
+      "replace": "\"导入应用备份\""
+    }
+  ],
+  "SideStore/Views/Components/ActivityViewController.swift": [
+    {
+      "find": "\"Export File\"",
+      "replace": "\"导出文件\""
+    }
+  ],
+  "SideStore/Views/Components/AppInfoView.swift": [
+    {
+      "find": ".navigationTitle(\"App Details\")",
+      "replace": ".navigationTitle(\"应用详情\")"
+    },
+    {
+      "find": ".navigationTitle(\"Profile Details\")",
+      "replace": ".navigationTitle(\"描述文件详情\")"
+    },
+    {
+      "find": ".navigationTitle(\"Device IDs\")",
+      "replace": ".navigationTitle(\"设备 ID\")"
+    },
+    {
+      "find": "Button(\"Switch\"",
+      "replace": "Button(\"切换\""
+    },
+    {
+      "find": "Button(\"Close\"",
+      "replace": "Button(\"关闭\""
+    },
+    {
+      "find": "Label(\"Share Profile\", systemImage:",
+      "replace": "Label(\"共享描述文件\", systemImage:"
+    },
+    {
+      "find": "Label(\"Share Info.plist\", systemImage:",
+      "replace": "Label(\"共享 Info.plist\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy\", systemImage:",
+      "replace": "Label(\"复制\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Value\", systemImage:",
+      "replace": "Label(\"复制值\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Key\", systemImage:",
+      "replace": "Label(\"复制键\", systemImage:"
+    },
+    {
+      "find": "\"Resigned: \\(installedApp.resignedBundleIdentifier)\"",
+      "replace": "\"重签 Bundle ID：\\(installedApp.resignedBundleIdentifier)\""
+    },
+    {
+      "find": "\"Team Name\"",
+      "replace": "\"团队名称\""
+    },
+    {
+      "find": "\"Team ID\"",
+      "replace": "\"团队 ID\""
+    },
+    {
+      "find": "\"Expiration Date\"",
+      "replace": "\"过期日期\""
+    },
+    {
+      "find": "\"Refreshed Date\"",
+      "replace": "\"刷新日期\""
+    },
+    {
+      "find": "\"Installed Date\"",
+      "replace": "\"安装日期\""
+    },
+    {
+      "find": "\"Certificate Serial\"",
+      "replace": "\"证书序列号\""
+    },
+    {
+      "find": "\"Uses Main Profile\"",
+      "replace": "\"使用主描述文件\""
+    },
+    {
+      "find": "\"Provisioning Profile (Resigned)\"",
+      "replace": "\"描述文件（重签后）\""
+    },
+    {
+      "find": "\"Provisioning Profile (Bundle)\"",
+      "replace": "\"描述文件（原始包）\""
+    },
+    {
+      "find": "\"Switch to Bundle Profile\"",
+      "replace": "\"切换为原始描述文件\""
+    },
+    {
+      "find": "\"Switch to Resigned Profile\"",
+      "replace": "\"切换为重签描述文件\""
+    },
+    {
+      "find": "\"No Resigned Profile Cached\"",
+      "replace": "\"未缓存重签描述文件\""
+    },
+    {
+      "find": "\"No Bundle Profile Found\"",
+      "replace": "\"未找到原始描述文件\""
+    },
+    {
+      "find": "\"Tap toggle to view \\(showResignedProfile ? \"bundle\" : \"resigned\") profile\"",
+      "replace": "\"点击切换按钮查看\\(showResignedProfile ? \"原始\" : \"重签\")描述文件\""
+    },
+    {
+      "find": "\"Tap toggle to view \\(showResignedInfoPlist ? \"bundle\" : \"resigned\") Info.plist\"",
+      "replace": "\"点击切换按钮查看\\(showResignedInfoPlist ? \"原始\" : \"重签\") Info.plist\""
+    },
+    {
+      "find": "\"Bundle Contents\"",
+      "replace": "\"包内容\""
+    },
+    {
+      "find": "\"Team Identifier\"",
+      "replace": "\"团队标识符\""
+    },
+    {
+      "find": "\"Free Developer Profile\"",
+      "replace": "\"免费开发者描述文件\""
+    },
+    {
+      "find": "\"Developer Certificates (\\(profile.certificates.count))\"",
+      "replace": "\"开发者证书 (\\(profile.certificates.count))\""
+    },
+    {
+      "find": "\"Serial: \\(cert.serialNumber)\"",
+      "replace": "\"序列号：\\(cert.serialNumber)\""
+    },
+    {
+      "find": "\"Provisioned Devices (\\(profile.deviceIDs.count))\"",
+      "replace": "\"已配置设备 (\\(profile.deviceIDs.count))\""
+    },
+    {
+      "find": "\"Entitlements (\\(profile.entitlements.count))\"",
+      "replace": "\"权限配置 (\\(profile.entitlements.count))\""
+    },
+    {
+      "find": "\"Min iOS\"",
+      "replace": "\"最低 iOS\""
+    },
+    {
+      "find": "\"Profile Created\"",
+      "replace": "\"描述文件创建时间\""
+    },
+    {
+      "find": "\"Profile Expires\"",
+      "replace": "\"描述文件过期时间\""
+    },
+    {
+      "find": "\"Expires: \\(formatDate(profile.expirationDate))\"",
+      "replace": "\"过期时间：\\(formatDate(profile.expirationDate))\""
+    },
+    {
+      "find": "\"Nested Extensions (\\(subExtensions.count))\"",
+      "replace": "\"嵌套扩展 (\\(subExtensions.count))\""
+    },
+    {
+      "find": "\"Bundle ID\"",
+      "replace": "\"Bundle ID\""
+    },
+    {
+      "find": "installedApp.useMainProfile ? \"Yes\" : \"No\"",
+      "replace": "installedApp.useMainProfile ? \"是\" : \"否\""
+    },
+    {
+      "find": "profile.isFreeProvisioningProfile ? \"Yes\" : \"No\"",
+      "replace": "profile.isFreeProvisioningProfile ? \"是\" : \"否\""
+    },
+    {
+      "find": "Label(\"Share Profile\"",
+      "replace": "Label(\"分享描述文件\""
+    },
+    {
+      "find": "Label(\"Share Info.plist\"",
+      "replace": "Label(\"分享 Info.plist\""
+    },
+    {
+      "find": "Label(\"Copy Value\"",
+      "replace": "Label(\"复制值\""
+    },
+    {
+      "find": "Label(\"Copy Key\"",
+      "replace": "Label(\"复制键\""
+    },
+    {
+      "find": "InfoRow(label: \"Status\"",
+      "replace": "InfoRow(label: \"状态\""
+    },
+    {
+      "find": "installedApp.isActive ? \"Active\" : \"Inactive\"",
+      "replace": "installedApp.isActive ? \"活跃\" : \"未激活\""
+    },
+    {
+      "find": "InfoRow(label: \"Version\"",
+      "replace": "InfoRow(label: \"版本\""
+    },
+    {
+      "find": "InfoRow(label: \"Executable\"",
+      "replace": "InfoRow(label: \"可执行文件\""
+    },
+    {
+      "find": "\"App Bundle ID\"",
+      "replace": "\"应用 Bundle ID\""
+    }
+  ],
+  "SideStore/Views/Components/BundleResourceBrowserView.swift": [
+    {
+      "find": "\"Empty directory\"",
+      "replace": "\"空目录\""
+    },
+    {
+      "find": "\"No results\"",
+      "replace": "\"无结果\""
+    },
+    {
+      "find": "\"Select Files\"",
+      "replace": "\"选择文件\""
+    },
+    {
+      "find": "\"Search files\"",
+      "replace": "\"搜索文件\""
+    },
+    {
+      "find": "\"Extracting \\(ipaURL.lastPathComponent)...\"",
+      "replace": "\"正在解压 \\(ipaURL.lastPathComponent)…\""
+    },
+    {
+      "find": "\"Min iOS\"",
+      "replace": "\"最低 iOS\""
+    },
+    {
+      "find": "\"Expires: \\(formatDate(profile.expirationDate))\"",
+      "replace": "\"过期时间：\\(formatDate(profile.expirationDate))\""
+    },
+    {
+      "find": "\"App Extensions (\\(appExtensions.count))\"",
+      "replace": "\"应用扩展 (\\(appExtensions.count))\""
+    },
+    {
+      "find": "\"Bundle Contents\"",
+      "replace": "\"包内容\""
+    },
+    {
+      "find": "\"Could not decode provisioning profile from \\(url.lastPathComponent).\"",
+      "replace": "\"无法从 \\(url.lastPathComponent) 解析描述文件。\""
+    },
+    {
+      "find": "InfoRow(label: \"Version\"",
+      "replace": "InfoRow(label: \"版本\""
+    },
+    {
+      "find": "InfoRow(label: \"Executable\"",
+      "replace": "InfoRow(label: \"可执行文件\""
+    }
+  ],
+  "SideStore/Views/Components/CodeResourcesViewer.swift": [
+    {
+      "find": "Picker(\"Display Mode\"",
+      "replace": "Picker(\"显示模式\""
+    },
+    {
+      "find": "\"Total Sealed Files\"",
+      "replace": "\"已封装文件总数\""
+    },
+    {
+      "find": "\"Signing Rules\"",
+      "replace": "\"签名规则\""
+    },
+    {
+      "find": "\"Format Version\"",
+      "replace": "\"格式版本\""
+    },
+    {
+      "find": "\"Version 2 (SHA-256)\"",
+      "replace": "\"版本 2 (SHA-256)\""
+    },
+    {
+      "find": "\"Version 1 (SHA-1)\"",
+      "replace": "\"版本 1 (SHA-1)\""
+    },
+    {
+      "find": "\"Signing Rules (\\(filteredRules.count))\"",
+      "replace": "\"签名规则 (\\(filteredRules.count))\""
+    },
+    {
+      "find": "\"No rules matching '\\(searchQuery)'\"",
+      "replace": "\"没有匹配“\\(searchQuery)”的规则\""
+    },
+    {
+      "find": "\"Sealed Files (\\(filteredEntries.count))\"",
+      "replace": "\"已封装文件 (\\(filteredEntries.count))\""
+    },
+    {
+      "find": "\"No sealed files found\"",
+      "replace": "\"未找到已封装文件\""
+    },
+    {
+      "find": "\"No files matching '\\(searchQuery)'\"",
+      "replace": "\"没有匹配“\\(searchQuery)”的文件\""
+    },
+    {
+      "find": "\"Explore Structure (\\(plist.count) keys)\"",
+      "replace": "\"浏览结构（\\(plist.count) 个键）\""
+    },
+    {
+      "find": "\"CodeResources XML\"",
+      "replace": "\"CodeResources XML\""
+    },
+    {
+      "find": "\"Reading CodeResources...\"",
+      "replace": "\"正在读取 CodeResources…\""
+    },
+    {
+      "find": "\"Search sealed files or rules\"",
+      "replace": "\"搜索已封装文件或规则\""
+    },
+    {
+      "find": "\"Unable to read file contents at \\(url.path).\"",
+      "replace": "\"无法读取 \\(url.path) 的文件内容。\""
+    },
+    {
+      "find": "\"Could not decode file as a property list.\"",
+      "replace": "\"无法将文件解析为属性列表。\""
+    },
+    {
+      "find": "\"Copied \\(entry.path.components(separatedBy: \"/\").last ?? entry.path) to clipboard\"",
+      "replace": "\"已将 \\(entry.path.components(separatedBy: \"/\").last ?? entry.path) 复制到剪贴板\""
+    }
+  ],
+  "SideStore/Views/Components/EntitlementsCustomizationCoreView.swift": [
+    {
+      "find": ".navigationTitle(\"Add Entitlement\")",
+      "replace": ".navigationTitle(\"添加权限项\")"
+    },
+    {
+      "find": "Toggle(\"Enabled\"",
+      "replace": "Toggle(\"已启用\""
+    },
+    {
+      "find": "TextField(\"Search entitlements...\"",
+      "replace": "TextField(\"搜索权限项...\""
+    },
+    {
+      "find": "TextField(\"Add item (e.g. group.id)\"",
+      "replace": "TextField(\"添加项目（例如 group.id）\""
+    },
+    {
+      "find": "TextField(\"e.g. com.apple.security.application-groups\"",
+      "replace": "TextField(\"例如 com.apple.security.application-groups\""
+    },
+    {
+      "find": "TextField(\"Items (comma-separated)\"",
+      "replace": "TextField(\"项目（以逗号分隔）\""
+    },
+    {
+      "find": "\"Free Account\"",
+      "replace": "\"免费账号\""
+    },
+    {
+      "find": "\"Paid Developer\"",
+      "replace": "\"付费开发者\""
+    },
+    {
+      "find": "\"Main App\"",
+      "replace": "\"主应用\""
+    },
+    {
+      "find": "\"ACTIVE ENTITLEMENTS (\\(viewModel.filteredActiveEntries.count))\"",
+      "replace": "\"已启用权限 (\\(viewModel.filteredActiveEntries.count))\""
+    },
+    {
+      "find": "\"Unsupported on \\(viewModel.teamType.displayName)\"",
+      "replace": "\"\\(viewModel.teamType.displayName)不支持\""
+    },
+    {
+      "find": "\"AVAILABLE FOR YOUR ACCOUNT (\\(available.count))\"",
+      "replace": "\"当前账号可用 (\\(available.count))\""
+    },
+    {
+      "find": "? \"Extension\" : \"Main App\"",
+      "replace": "? \"扩展\" : \"主应用\""
+    }
+  ],
+  "SideStore/Views/Components/InfoPlistContainerView.swift": [
+    {
+      "find": "Label(\"Copy Key\", systemImage:",
+      "replace": "Label(\"复制键\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy\", systemImage:",
+      "replace": "Label(\"复制\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Value\", systemImage:",
+      "replace": "Label(\"复制值\", systemImage:"
+    },
+    {
+      "find": "Picker(\"Visualization Mode\"",
+      "replace": "Picker(\"视图模式\""
+    },
+    {
+      "find": "TextField(\"Search keys\"",
+      "replace": "TextField(\"搜索键\""
+    },
+    {
+      "find": "\"Dictionary (\\(dict.count) keys)\"",
+      "replace": "\"字典（\\(dict.count) 项）\""
+    },
+    {
+      "find": "\"Index \\($0)\"",
+      "replace": "\"索引 \\($0)\""
+    },
+    {
+      "find": "\"Array (\\(array.count) items)\"",
+      "replace": "\"数组（\\(array.count) 项）\""
+    },
+    {
+      "find": "\"Data (\\(data.count) bytes)\"",
+      "replace": "\"数据（\\(data.count) 字节）\""
+    },
+    {
+      "find": "\"Raw XML\"",
+      "replace": "\"原始 XML\""
+    },
+    {
+      "find": "\"App Name\"",
+      "replace": "\"应用名称\""
+    },
+    {
+      "find": "\"Minimum OS\"",
+      "replace": "\"最低系统版本\""
+    },
+    {
+      "find": "\"Privacy Permissions (\\(privacyPermissions.count))\"",
+      "replace": "\"隐私权限 (\\(privacyPermissions.count))\""
+    },
+    {
+      "find": "Label(\"Copy Key\"",
+      "replace": "Label(\"复制键\""
+    },
+    {
+      "find": "Label(\"Copy Value\"",
+      "replace": "Label(\"复制值\""
+    },
+    {
+      "find": "Label(isWrapped ? \"Wrap: On\" : \"Wrap: Off\"",
+      "replace": "Label(isWrapped ? \"自动换行：开\" : \"自动换行：关\""
+    },
+    {
+      "find": "Label(isCopied ? \"Copied!\" : \"Copy XML\"",
+      "replace": "Label(isCopied ? \"已复制！\" : \"复制 XML\""
+    },
+    {
+      "find": "Label(isCopied ? \"Copied!\" : \"Copy JSON\"",
+      "replace": "Label(isCopied ? \"已复制！\" : \"复制 JSON\""
+    },
+    {
+      "find": "SemanticValueRow(label: \"Version\"",
+      "replace": "SemanticValueRow(label: \"版本\""
+    }
+  ],
+  "SideStore/Views/Components/InfoPlistCustomizationCoreView.swift": [
+    {
+      "find": ".navigationTitle(\"Add Plist Key\")",
+      "replace": ".navigationTitle(\"添加 Plist 键\")"
+    },
+    {
+      "find": "Picker(\"Boolean Value\"",
+      "replace": "Picker(\"布尔值\""
+    },
+    {
+      "find": "TextField(\"My App\"",
+      "replace": "TextField(\"我的应用\""
+    },
+    {
+      "find": "TextField(\"Filter keys...\"",
+      "replace": "TextField(\"筛选键...\""
+    },
+    {
+      "find": "TextField(\"e.g. CFBundleURLTypes\"",
+      "replace": "TextField(\"例如 CFBundleURLTypes\""
+    },
+    {
+      "find": "\"Main App\"",
+      "replace": "\"主应用\""
+    },
+    {
+      "find": "\"APP IDENTITY\"",
+      "replace": "\"应用标识\""
+    },
+    {
+      "find": "\"Matches installed app \\\"\\(existingName)\\\" — will update existing app\"",
+      "replace": "\"匹配已安装应用“\\(existingName)”— 将更新现有应用\""
+    },
+    {
+      "find": "\"CAPABILITIES & SHARING\"",
+      "replace": "\"功能与共享\""
+    },
+    {
+      "find": "\"ALL RAW KEYS\"",
+      "replace": "\"所有原始键值\""
+    },
+    {
+      "find": "\"Expand (\\(rawEntries.count))\"",
+      "replace": "\"展开 (\\(rawEntries.count))\""
+    },
+    {
+      "find": "? \"Extension\" : \"Main App\"",
+      "replace": "? \"扩展\" : \"主应用\""
+    },
+    {
+      "find": "title: \"VERSIONING\"",
+      "replace": "title: \"版本信息\""
+    },
+    {
+      "find": "isShowingRawKeys ? \"Collapse\" : \"Expand (\\(rawEntries.count))\"",
+      "replace": "isShowingRawKeys ? \"收起\" : \"展开 (\\(rawEntries.count))\""
+    }
+  ],
+  "SideStore/Views/Components/MachOResourceViewer.swift": [
+    {
+      "find": "\"Min OS Version\"",
+      "replace": "\"最低系统版本\""
+    },
+    {
+      "find": "\"Encrypted (DRM)\"",
+      "replace": "\"已加密 (DRM)\""
+    },
+    {
+      "find": "\"Bundle ID\"",
+      "replace": "\"Bundle ID\""
+    },
+    {
+      "find": "\"Team ID\"",
+      "replace": "\"团队 ID\""
+    },
+    {
+      "find": "\"Signatures & Certificates (\\(x509Certs.count))\"",
+      "replace": "\"签名与证书 (\\(x509Certs.count))\""
+    },
+    {
+      "find": "\"Serial: \\(cert.serialNumber)\"",
+      "replace": "\"序列号：\\(cert.serialNumber)\""
+    },
+    {
+      "find": "\"Expires: \\(formatDate(cert.expiryDate))\"",
+      "replace": "\"过期时间：\\(formatDate(cert.expiryDate))\""
+    },
+    {
+      "find": "\"Linked Libraries (\\(libs.count))\"",
+      "replace": "\"链接的动态库 (\\(libs.count))\""
+    },
+    {
+      "find": "\"Segments (\\(segs.count))\"",
+      "replace": "\"段信息 (\\(segs.count))\""
+    },
+    {
+      "find": "\"Mach-O Dump\"",
+      "replace": "\"Mach-O 转储\""
+    },
+    {
+      "find": "\"Could not parse \\(url.lastPathComponent) as a valid Mach-O binary.\"",
+      "replace": "\"无法将 \\(url.lastPathComponent) 解析为有效的 Mach-O 二进制文件。\""
+    },
+    {
+      "find": "\"Parsing Mach-O...\"",
+      "replace": "\"正在解析 Mach-O…\""
+    },
+    {
+      "find": "InfoRow(label: \"Size\"",
+      "replace": "InfoRow(label: \"大小\""
+    },
+    {
+      "find": "InfoRow(label: \"Architectures\"",
+      "replace": "InfoRow(label: \"架构\""
+    },
+    {
+      "find": "archs.isEmpty ? \"Unknown\" :",
+      "replace": "archs.isEmpty ? \"未知\" :"
+    },
+    {
+      "find": "InfoRow(label: \"Platform\"",
+      "replace": "InfoRow(label: \"平台\""
+    },
+    {
+      "find": "InfoRow(label: \"Name\"",
+      "replace": "InfoRow(label: \"名称\""
+    },
+    {
+      "find": "ResourceTextViewer(title: \"Entitlements\"",
+      "replace": "ResourceTextViewer(title: \"权限配置\""
+    },
+    {
+      "find": "\"Entry Point\"",
+      "replace": "\"入口点\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Anisette/AnisetteDataView.swift": [
+    {
+      "find": ".navigationTitle(\"Client Config\")",
+      "replace": ".navigationTitle(\"客户端配置\")"
+    },
+    {
+      "find": "Button(\"Reset\"",
+      "replace": "Button(\"重置\""
+    },
+    {
+      "find": "Label(\"Save Overrides\", systemImage:",
+      "replace": "Label(\"保存覆盖配置\", systemImage:"
+    },
+    {
+      "find": "Label(\"Save Raw JSON\", systemImage:",
+      "replace": "Label(\"保存原始 JSON\", systemImage:"
+    },
+    {
+      "find": "Label(\"Save as Overrides\", systemImage:",
+      "replace": "Label(\"另存为覆盖配置\", systemImage:"
+    },
+    {
+      "find": "Label(\"Remote Server Sync\", systemImage:",
+      "replace": "Label(\"远程服务器同步\", systemImage:"
+    },
+    {
+      "find": "Label(\"Import Config JSON\", systemImage:",
+      "replace": "Label(\"导入配置 JSON\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export Config JSON\", systemImage:",
+      "replace": "Label(\"导出配置 JSON\", systemImage:"
+    },
+    {
+      "find": "Picker(\"View Mode\"",
+      "replace": "Picker(\"查看模式\""
+    },
+    {
+      "find": ".alert(\"Reset to Defaults?\"",
+      "replace": ".alert(\"恢复默认设置？\""
+    },
+    {
+      "find": "NSLocalizedDescriptionKey: \"No active anisette server URL configured.\"",
+      "replace": "NSLocalizedDescriptionKey: \"未配置有效的 Anisette 服务器 URL。\""
+    },
+    {
+      "find": "NSLocalizedDescriptionKey: \"Server response is not a valid JSON.\"",
+      "replace": "NSLocalizedDescriptionKey: \"服务器返回的不是有效的 JSON。\""
+    },
+    {
+      "find": "\"Saved configuration successfully.\"",
+      "replace": "\"配置保存成功。\""
+    },
+    {
+      "find": "\"Encoding Failed\"",
+      "replace": "\"编码失败\""
+    },
+    {
+      "find": "\"Unable to encode JSON as UTF-8.\"",
+      "replace": "\"无法将 JSON 编码为 UTF-8。\""
+    },
+    {
+      "find": "\"JSON configuration saved successfully!\"",
+      "replace": "\"JSON 配置保存成功！\""
+    },
+    {
+      "find": "\"Invalid JSON Structure\"",
+      "replace": "\"无效的 JSON 结构\""
+    },
+    {
+      "find": "\"Reset to default configuration.\"",
+      "replace": "\"已重置为默认配置。\""
+    },
+    {
+      "find": "\"Imported successfully\"",
+      "replace": "\"导入成功\""
+    },
+    {
+      "find": "\"Import Failed\"",
+      "replace": "\"导入失败\""
+    },
+    {
+      "find": "\"Export Failed\"",
+      "replace": "\"导出失败\""
+    },
+    {
+      "find": "\"Fetched server config!\"",
+      "replace": "\"已获取服务器配置！\""
+    },
+    {
+      "find": "\"Fetch Failed\"",
+      "replace": "\"获取失败\""
+    },
+    {
+      "find": "\"No fetched headers found\"",
+      "replace": "\"未找到已获取的请求头\""
+    },
+    {
+      "find": "\"Fetch from server first.\"",
+      "replace": "\"请先从服务器获取。\""
+    },
+    {
+      "find": "\"Loaded fetched data into overrides!\"",
+      "replace": "\"已将获取的数据加载到覆盖配置中！\""
+    },
+    {
+      "find": "\"PRIMARY CLIENT HEADERS\"",
+      "replace": "\"主要客户端请求头\""
+    },
+    {
+      "find": "\"Client Info\"",
+      "replace": "\"客户端信息\""
+    },
+    {
+      "find": "\"User Agent\"",
+      "replace": "\"User-Agent\""
+    },
+    {
+      "find": "\"DEVICE & IDENTITY\"",
+      "replace": "\"设备与身份\""
+    },
+    {
+      "find": "\"Device Identifier\"",
+      "replace": "\"设备标识符\""
+    },
+    {
+      "find": "\"System Generated Device UUID\"",
+      "replace": "\"系统生成的设备 UUID\""
+    },
+    {
+      "find": "\"Local User ID\"",
+      "replace": "\"本地用户 ID\""
+    },
+    {
+      "find": "\"Serial Number\"",
+      "replace": "\"序列号\""
+    },
+    {
+      "find": "\"Routing Info\"",
+      "replace": "\"路由信息\""
+    },
+    {
+      "find": "\"ENVIRONMENT & LOCALIZATION\"",
+      "replace": "\"环境与本地化\""
+    },
+    {
+      "find": "\"Time Zone\"",
+      "replace": "\"时区\""
+    },
+    {
+      "find": "\"e.g. UTC, EDT\"",
+      "replace": "\"例如 UTC、EDT\""
+    },
+    {
+      "find": "\"Xcode Version\"",
+      "replace": "\"Xcode 版本\""
+    },
+    {
+      "find": "\"DYNAMIC CRYPTOGRAPHIC TOKENS\"",
+      "replace": "\"动态加密令牌\""
+    },
+    {
+      "find": "\"One-Time Password (OTP)\"",
+      "replace": "\"一次性密码 (OTP)\""
+    },
+    {
+      "find": "\"Signed HMAC token dynamically calculated by ADI engine per request\"",
+      "replace": "\"每次请求由 ADI 引擎动态计算的签名 HMAC 令牌\""
+    },
+    {
+      "find": "\"Machine ID\"",
+      "replace": "\"设备 ID (Machine ID)\""
+    },
+    {
+      "find": "\"Hardware identifier computed from adi.pb and device identity\"",
+      "replace": "\"根据 adi.pb 与设备身份计算的硬件标识符\""
+    },
+    {
+      "find": "\"Client Time\"",
+      "replace": "\"客户端时间\""
+    },
+    {
+      "find": "\"ISO8601 UTC timestamp locked to OTP generation time\"",
+      "replace": "\"与 OTP 生成时间锁定的 ISO8601 UTC 时间戳\""
+    },
+    {
+      "find": "\"RAW CONFIGURATION JSON\"",
+      "replace": "\"原始配置 JSON\""
+    },
+    {
+      "find": "\"REMOTE SERVER SYNC\"",
+      "replace": "\"远程服务器同步\""
+    },
+    {
+      "find": "\"Import Anisette Client Config JSON\"",
+      "replace": "\"导入 Anisette 客户端配置 JSON\""
+    },
+    {
+      "find": "\"File Selection Failed\"",
+      "replace": "\"文件选择失败\""
+    },
+    {
+      "find": "title: \"Locale\"",
+      "replace": "title: \"地区\""
+    },
+    {
+      "find": "Label(\"Save Overrides\"",
+      "replace": "Label(\"保存覆盖配置\""
+    },
+    {
+      "find": "Label(\"Save Raw JSON\"",
+      "replace": "Label(\"保存原始 JSON\""
+    },
+    {
+      "find": "isCopiedServer ? \"Copied\" : \"Copy\"",
+      "replace": "isCopiedServer ? \"已复制\" : \"复制\""
+    },
+    {
+      "find": "Label(\"Save as Overrides\"",
+      "replace": "Label(\"保存为覆盖配置\""
+    },
+    {
+      "find": "Label(\"Remote Server Sync\"",
+      "replace": "Label(\"远程服务器同步\""
+    },
+    {
+      "find": "Label(\"Import Config JSON\"",
+      "replace": "Label(\"导入配置 JSON\""
+    },
+    {
+      "find": "Label(\"Export Config JSON\"",
+      "replace": "Label(\"导出配置 JSON\""
+    },
+    {
+      "find": "Label(\"Reset to Defaults\"",
+      "replace": "Label(\"恢复默认\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/BackupRestore/BackupAndRestoreView.swift": [
+    {
+      "find": "Button(\"Decrypt\"",
+      "replace": "Button(\"解密\""
+    },
+    {
+      "find": "Button(\"Sign In\"",
+      "replace": "Button(\"登录\""
+    },
+    {
+      "find": "SecureField(\"Password\"",
+      "replace": "SecureField(\"密码\""
+    },
+    {
+      "find": ".alert(\"Decrypt Backup\"",
+      "replace": ".alert(\"解密备份\""
+    },
+    {
+      "find": ".alert(\"Apple ID Password\"",
+      "replace": ".alert(\"Apple ID 密码\""
+    },
+    {
+      "find": "\"Please enter Apple ID password for \\(email) to complete sign-in.\"",
+      "replace": "\"请输入 \\(email) 的 Apple ID 密码以完成登录。\""
+    },
+    {
+      "find": "\"Export Error\"",
+      "replace": "\"导出错误\""
+    },
+    {
+      "find": "\"File password cannot be empty.\"",
+      "replace": "\"文件密码不能为空。\""
+    },
+    {
+      "find": "\"Account Imported\"",
+      "replace": "\"账号已导入\""
+    },
+    {
+      "find": "\"Account \\(account.email) imported successfully!\"",
+      "replace": "\"账号 \\(account.email) 导入成功！\""
+    },
+    {
+      "find": "\"Import File\"",
+      "replace": "\"导入文件\""
+    },
+    {
+      "find": "\"Import Error\"",
+      "replace": "\"导入错误\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/CacheMgmt/CacheManagementView.swift": [
+    {
+      "find": "Label(\"Export/Share\", systemImage:",
+      "replace": "Label(\"导出/共享\", systemImage:"
+    },
+    {
+      "find": "Label(\"Delete Cache\", systemImage:",
+      "replace": "Label(\"删除缓存\", systemImage:"
+    },
+    {
+      "find": "\"Loading Cache...\"",
+      "replace": "\"正在加载缓存…\""
+    },
+    {
+      "find": "\"An unknown error occurred.\"",
+      "replace": "\"发生未知错误。\""
+    },
+    {
+      "find": "\"this app\"",
+      "replace": "\"此应用\""
+    },
+    {
+      "find": "\"If deleted, SideStore will require the original IPA file during reinstall, backup, resign, or refresh procedures. Are you sure you want to delete the cached app bundle for “\\(appName)” ?\"",
+      "replace": "\"删除后，SideStore 在重新安装、备份、重签或刷新时将需要原始 IPA 文件。确定要删除“\\(appName)”的缓存应用包吗？\""
+    },
+    {
+      "find": "Label(\"Delete Cache\"",
+      "replace": "Label(\"删除缓存\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/ActiveCertSectionView.swift": [
+    {
+      "find": "Section(\"Active Local Certificate\"",
+      "replace": "Section(\"当前激活的本地证书\""
+    },
+    {
+      "find": "Label(\"Copy S/N\", systemImage:",
+      "replace": "Label(\"复制序列号\", systemImage:"
+    },
+    {
+      "find": "\"Reveal Details\"",
+      "replace": "\"显示详情\""
+    },
+    {
+      "find": "\"Hide Details\"",
+      "replace": "\"隐藏详情\""
+    },
+    {
+      "find": "\"No active local certificate found.Import a .p12 file to sign your apps.\"",
+      "replace": "\"未找到当前可用的本地证书。请导入 .p12 文件以签名应用。\""
+    },
+    {
+      "find": "\"No active local certificate found.Create a new certificate or import a .p12 file to sign your apps.\"",
+      "replace": "\"未找到当前可用的本地证书。请创建新证书或导入 .p12 文件以签名应用。\""
+    },
+    {
+      "find": "Label(\"Copy S/N\"",
+      "replace": "Label(\"复制序列号\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/CertificateDetailView.swift": [
+    {
+      "find": "\"Certificate ID\"",
+      "replace": "\"证书 ID\""
+    },
+    {
+      "find": "\"Certificate Type\"",
+      "replace": "\"证书类型\""
+    },
+    {
+      "find": "\"Type Name\"",
+      "replace": "\"类型名称\""
+    },
+    {
+      "find": "\"Yes (Xcode Cloud)\"",
+      "replace": "\"是 (Xcode Cloud)\""
+    },
+    {
+      "find": "\"Platform Name\"",
+      "replace": "\"平台名称\""
+    },
+    {
+      "find": "\"Machine ID\"",
+      "replace": "\"设备 ID\""
+    },
+    {
+      "find": "\"Created By\"",
+      "replace": "\"创建者\""
+    },
+    {
+      "find": "\"Requester Email\"",
+      "replace": "\"申请者邮箱\""
+    },
+    {
+      "find": "\"Owner Name\"",
+      "replace": "\"所有者名称\""
+    },
+    {
+      "find": "\"Owner ID\"",
+      "replace": "\"所有者 ID\""
+    },
+    {
+      "find": "\"Serial Number (hex)\"",
+      "replace": "\"序列号（十六进制）\""
+    },
+    {
+      "find": "\"Serial Number (dec)\"",
+      "replace": "\"序列号（十进制）\""
+    },
+    {
+      "find": "\"Valid From\"",
+      "replace": "\"生效时间\""
+    },
+    {
+      "find": "\"Valid Until\"",
+      "replace": "\"过期时间\""
+    },
+    {
+      "find": "\"Validity Days\"",
+      "replace": "\"有效天数\""
+    },
+    {
+      "find": "\"Total: \\(stats.totalDays), Elapsed: \\(stats.elapsedDays), Remaining: \\(stats.remainingDays)\"",
+      "replace": "\"总计：\\(stats.totalDays) 天，已过：\\(stats.elapsedDays) 天，剩余：\\(stats.remainingDays) 天\""
+    },
+    {
+      "find": "\"Public Key\"",
+      "replace": "\"公钥\""
+    },
+    {
+      "find": "\"Signature Algorithm\"",
+      "replace": "\"签名算法\""
+    },
+    {
+      "find": "\"Has Private Key\"",
+      "replace": "\"包含私钥\""
+    },
+    {
+      "find": "detailRow(title: \"Managed\"",
+      "replace": "detailRow(title: \"托管状态\""
+    },
+    {
+      "find": "managed ? \"Yes (Xcode Cloud)\" : \"No\"",
+      "replace": "managed ? \"是 (Xcode Cloud)\" : \"否\""
+    },
+    {
+      "find": "detailRow(title: \"Auto-Rotation\"",
+      "replace": "detailRow(title: \"自动轮换\""
+    },
+    {
+      "find": "autoRotation ? \"Enabled\" : \"Disabled\"",
+      "replace": "autoRotation ? \"已启用\" : \"已禁用\""
+    },
+    {
+      "find": "detailRow(title: \"Subject\"",
+      "replace": "detailRow(title: \"主题 (Subject)\""
+    },
+    {
+      "find": "detailRow(title: \"Issuer\"",
+      "replace": "detailRow(title: \"签发者 (Issuer)\""
+    },
+    {
+      "find": "signableCert != nil ? \"Yes\" : \"No\"",
+      "replace": "signableCert != nil ? \"是\" : \"否\""
+    },
+    {
+      "find": "\"Status\"",
+      "replace": "\"状态\""
+    },
+    {
+      "find": "\"Version\"",
+      "replace": "\"版本\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/CertificateExporter.swift": [
+    {
+      "find": "\"Public certificate data is missing.\"",
+      "replace": "\"缺少公钥证书数据。\""
+    },
+    {
+      "find": "\"Failed to build encrypted p12 data: \\(error.localizedDescription)\"",
+      "replace": "\"生成加密 p12 数据失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Failed to write temp export file: \"",
+      "replace": "\"写入临时导出文件失败：\""
+    },
+    {
+      "find": "\"Export Certificate / Key\"",
+      "replace": "\"导出证书 / 密钥\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/CertificateRowView.swift": [
+    {
+      "find": "Label(\"Copy S/N\", systemImage:",
+      "replace": "Label(\"复制序列号\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy pKey (.pem)\", systemImage:",
+      "replace": "Label(\"复制私钥 (.pem)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export (.pem)\", systemImage:",
+      "replace": "Label(\"导出 (.pem)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export (.der)\", systemImage:",
+      "replace": "Label(\"导出 (.der)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy pubK (.pem)\", systemImage:",
+      "replace": "Label(\"复制公钥 (.pem)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export Full (.p12)\", systemImage:",
+      "replace": "Label(\"导出完整证书 (.p12)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export Public (.der)\", systemImage:",
+      "replace": "Label(\"导出公钥 (.der)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export Public (.pem)\", systemImage:",
+      "replace": "Label(\"导出公钥 (.pem)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Clear pKey\", systemImage:",
+      "replace": "Label(\"清除私钥\", systemImage:"
+    },
+    {
+      "find": "Label(\"Add pKey (.pem)\", systemImage:",
+      "replace": "Label(\"添加私钥 (.pem)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Add pKey (.der)\", systemImage:",
+      "replace": "Label(\"添加私钥 (.der)\", systemImage:"
+    },
+    {
+      "find": "\"Reveal Details\"",
+      "replace": "\"显示详情\""
+    },
+    {
+      "find": "\"Hide Details\"",
+      "replace": "\"隐藏详情\""
+    },
+    {
+      "find": "\"Export Private Key\"",
+      "replace": "\"导出私钥\""
+    },
+    {
+      "find": "\"Export Public Key\"",
+      "replace": "\"导出公钥\""
+    },
+    {
+      "find": "hasPrivateKey ? \"public + private\" : \"public\"",
+      "replace": "hasPrivateKey ? \"公钥 + 私钥\" : \"仅公钥\""
+    },
+    {
+      "find": "Label(\"Copy S/N\"",
+      "replace": "Label(\"复制序列号\""
+    },
+    {
+      "find": "AdaptiveMenu(title: \"Export Certificate\"",
+      "replace": "AdaptiveMenu(title: \"导出证书\""
+    },
+    {
+      "find": "Label(\"Clear pKey\"",
+      "replace": "Label(\"清除私钥\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/CertificateTypes.swift": [
+    {
+      "find": "\"Creation Date\"",
+      "replace": "\"创建日期\""
+    },
+    {
+      "find": "\"Expiry Date\"",
+      "replace": "\"过期日期\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/CertificatesListView.swift": [
+    {
+      "find": "Picker(\"Group By\"",
+      "replace": "Picker(\"分组方式\""
+    },
+    {
+      "find": ".confirmationDialog(\"Sort Certificates\"",
+      "replace": ".confirmationDialog(\"排序证书\""
+    },
+    {
+      "find": ".confirmationDialog(\"Group Certificates\"",
+      "replace": ".confirmationDialog(\"证书分组\""
+    },
+    {
+      "find": "\"Certificates \\(localCount)(\\(remoteCount)R)\"",
+      "replace": "\"证书 \\(localCount)（远程 \\(remoteCount)）\""
+    },
+    {
+      "find": "\"Certificates \\(localCount)\"",
+      "replace": "\"证书 \\(localCount)\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/CertificatesView.swift": [
+    {
+      "find": ".navigationTitle(\"Import Failures\")",
+      "replace": ".navigationTitle(\"导入失败项\")"
+    },
+    {
+      "find": ".navigationTitle(\"New Certificate\")",
+      "replace": ".navigationTitle(\"新建证书\")"
+    },
+    {
+      "find": "Button(\"Show Failed\"",
+      "replace": "Button(\"查看失败项\""
+    },
+    {
+      "find": "Button(\"Clear Key\"",
+      "replace": "Button(\"清除密钥\""
+    },
+    {
+      "find": "Button(\"Create\"",
+      "replace": "Button(\"创建\""
+    },
+    {
+      "find": "Picker(\"Certificate Type\"",
+      "replace": "Picker(\"证书类型\""
+    },
+    {
+      "find": "TextField(\"Machine Name\"",
+      "replace": "TextField(\"设备名称\""
+    },
+    {
+      "find": "SecureField(\"Password\"",
+      "replace": "SecureField(\"密码\""
+    },
+    {
+      "find": ".alert(\"Deactivate Certificate\"",
+      "replace": ".alert(\"停用证书\""
+    },
+    {
+      "find": ".alert(\"Delete Certificate\"",
+      "replace": ".alert(\"删除证书\""
+    },
+    {
+      "find": ".alert(\"Import Certificate Password\"",
+      "replace": ".alert(\"导入证书密码\""
+    },
+    {
+      "find": ".alert(\"Import Summary\"",
+      "replace": ".alert(\"导入摘要\""
+    },
+    {
+      "find": ".alert(\"Export Certificate Password\"",
+      "replace": ".alert(\"导出证书密码\""
+    },
+    {
+      "find": ".alert(\"Clear Private Key\"",
+      "replace": ".alert(\"清除私钥\""
+    },
+    {
+      "find": "\"Toggle Hide Sensitive Information\"",
+      "replace": "\"切换隐藏敏感信息\""
+    },
+    {
+      "find": "\"Create Certificate\"",
+      "replace": "\"创建证书\""
+    },
+    {
+      "find": "\"Import Certificates\"",
+      "replace": "\"导入证书\""
+    },
+    {
+      "find": "\"An unknown error occurred.\"",
+      "replace": "\"发生未知错误。\""
+    },
+    {
+      "find": "\"Enter the password to decrypt the imported certificate file.\\n\\nFile: \\(viewModel.currentImportFilename)\"",
+      "replace": "\"请输入密码以解密导入的证书文件。\\n\\n文件：\\(viewModel.currentImportFilename)\""
+    },
+    {
+      "find": "\"This will clear the locally stored private key of this certificate.\\n\\nName: \\(cert.name)\\nS/N: \\(cert.serialNumber)\"",
+      "replace": "\"这将清除本地保存的此证书私钥。\\n\\n名称：\\(cert.name)\\n序列号：\\(cert.serialNumber)\""
+    },
+    {
+      "find": "\"Failed to read private key: \"",
+      "replace": "\"读取私钥失败：\""
+    },
+    {
+      "find": "\"Import Private Key (.der/.pem)\"",
+      "replace": "\"导入私钥 (.der/.pem)\""
+    },
+    {
+      "find": "\"This certificate type requires a paid Apple Developer account.\"",
+      "replace": "\"此证书类型需要付费 Apple Developer 账号。\""
+    },
+    {
+      "find": "\"Select the certificate type and machine name. This registers the certificate on Apple's servers and saves the private key locally.\"",
+      "replace": "\"选择证书类型和设备名称。这将在 Apple 服务器上注册证书并将私钥保存在本地。\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/CertificatesViewModel.swift": [
+    {
+      "find": "\"The selected file is a certificate, not a private key.\"",
+      "replace": "\"所选文件是证书，而不是私钥。\""
+    },
+    {
+      "find": "\"The input does not contain a valid private key.\"",
+      "replace": "\"输入内容不包含有效的私钥。\""
+    },
+    {
+      "find": "\"Failed to convert binary private key to PEM format.\"",
+      "replace": "\"将二进制私钥转换为 PEM 格式失败。\""
+    },
+    {
+      "find": "\"Certificate import completed.\\nSuccess: \\(importSuccessCount)\\nFailed: \\(importFailedCount)\"",
+      "replace": "\"证书导入完成。\\n成功：\\(importSuccessCount)\\n失败：\\(importFailedCount)\""
+    },
+    {
+      "find": "\"Incorrect password for \"",
+      "replace": "\"密码错误：\""
+    },
+    {
+      "find": "\"This certificate is already revoked on Apple's servers.\"",
+      "replace": "\"此证书已在 Apple 服务器上吊销。\""
+    },
+    {
+      "find": "\"Certificate revoked successfully.\"",
+      "replace": "\"证书吊销成功。\""
+    },
+    {
+      "find": "\"Certificate revoked on Apple's servers. Local copy preserved.\"",
+      "replace": "\"证书已在 Apple 服务器上吊销，本地副本已保留。\""
+    },
+    {
+      "find": "\"Failed to revoke certificate.\"",
+      "replace": "\"吊销证书失败。\""
+    },
+    {
+      "find": "\"Certificate deleted locally.\"",
+      "replace": "\"已从本地删除证书。\""
+    },
+    {
+      "find": "\"Cannot activate certificate: private key missing.\"",
+      "replace": "\"无法激活证书：缺少私钥。\""
+    },
+    {
+      "find": "\"Active signing certificate replaced successfully.\"",
+      "replace": "\"当前签名证书已成功替换。\""
+    },
+    {
+      "find": "\"Failed to activate certificate: \\(error.localizedDescription)\"",
+      "replace": "\"激活证书失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Local certificate deactivated.\"",
+      "replace": "\"本地证书已停用。\""
+    },
+    {
+      "find": "\"Public + Private Keys\"",
+      "replace": "\"公钥 + 私钥\""
+    },
+    {
+      "find": "\"Public Keys Only\"",
+      "replace": "\"仅公钥\""
+    },
+    {
+      "find": "\"Created in \\(year)\"",
+      "replace": "\"创建于 \\(year) 年\""
+    },
+    {
+      "find": "\"Created (Unknown Date)\"",
+      "replace": "\"创建于（未知日期）\""
+    },
+    {
+      "find": "\"Expires in \\(year)\"",
+      "replace": "\"过期于 \\(year) 年\""
+    },
+    {
+      "find": "\"Expires (Unknown Date)\"",
+      "replace": "\"过期于（未知日期）\""
+    },
+    {
+      "find": "\"Successfully added private key to certificate \\(cert.name).\"",
+      "replace": "\"已成功为证书 \\(cert.name) 添加私钥。\""
+    },
+    {
+      "find": "\"Successfully removed private key from certificate \\(cert.name).\"",
+      "replace": "\"已成功移除证书 \\(cert.name) 的私钥。\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/PrivateKeyTextInputView.swift": [
+    {
+      "find": ".navigationTitle(\"Add Private Key\")",
+      "replace": ".navigationTitle(\"添加私钥\")"
+    },
+    {
+      "find": "Label(\"Import from File\", systemImage:",
+      "replace": "Label(\"从文件导入\", systemImage:"
+    },
+    {
+      "find": ".alert(\"Key Added\"",
+      "replace": ".alert(\"已添加密钥\""
+    },
+    {
+      "find": "\"Import PEM Private Key File\"",
+      "replace": "\"导入 PEM 私钥文件\""
+    },
+    {
+      "find": "\"Failed to read file: \\(error.localizedDescription)\"",
+      "replace": "\"读取文件失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Failed to select file: \\(error.localizedDescription)\"",
+      "replace": "\"选择文件失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Key was added to certificate \\(cert.name) (SN: \\(cert.serialNumber)).\"",
+      "replace": "\"密钥已添加到证书 \\(cert.name)（序列号：\\(cert.serialNumber)）。\""
+    },
+    {
+      "find": "Label(\"Import from File\"",
+      "replace": "Label(\"从文件导入\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Certificates/SignableCertificatesListViewController.swift": [
+    {
+      "find": "\"Current App & Active Global\"",
+      "replace": "\"当前应用及全局激活\""
+    },
+    {
+      "find": "\"Current App\"",
+      "replace": "\"当前应用\""
+    },
+    {
+      "find": "\"Active Global\"",
+      "replace": "\"全局激活\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Connection/ConnectionConfigView.swift": [
+    {
+      "find": ".navigationTitle(\"Connection Config\")",
+      "replace": ".navigationTitle(\"连接配置\")"
+    },
+    {
+      "find": "Toggle(\"Use Local VPN\"",
+      "replace": "Toggle(\"使用本地 VPN\""
+    },
+    {
+      "find": ".alert(\"Invalid Configuration\"",
+      "replace": ".alert(\"无效配置\""
+    },
+    {
+      "find": "\"Tunnel IP\"",
+      "replace": "\"隧道 IP\""
+    },
+    {
+      "find": "\"Device IP\"",
+      "replace": "\"设备 IP\""
+    },
+    {
+      "find": "\"RemotePair Port\"",
+      "replace": "\"RemotePair 端口\""
+    },
+    {
+      "find": "\"Bind Host / IP\"",
+      "replace": "\"绑定主机 / IP\""
+    },
+    {
+      "find": "\"Bind Port\"",
+      "replace": "\"绑定端口\""
+    },
+    {
+      "find": "\"Please check your configuration settings.\"",
+      "replace": "\"请检查你的配置设置。\""
+    },
+    {
+      "find": "\"IPv6 addresses are not supported for Device IP unless 'Accept IPv6 Config' is enabled in Developer Options.\"",
+      "replace": "\"除非在开发者选项中启用“接受 IPv6 配置”，否则设备 IP 不支持 IPv6 地址。\""
+    },
+    {
+      "find": "\"Invalid IPv6 address for Device IP.\"",
+      "replace": "\"设备 IP 的 IPv6 地址无效。\""
+    },
+    {
+      "find": "\"Device IP is mandatory for Remote Endpoint mode.\"",
+      "replace": "\"远程端点模式下必须填写设备 IP。\""
+    },
+    {
+      "find": "\"RemotePair Port must be a valid number between 1 and 65535 or left empty for auto-discovery.\"",
+      "replace": "\"RemotePair 端口必须是 1 到 65535 之间的有效数字，或留空以自动发现。\""
+    },
+    {
+      "find": "\"Bind Host / IP cannot be empty.\"",
+      "replace": "\"绑定主机 / IP 不能为空。\""
+    },
+    {
+      "find": "\"IPv6 addresses are not supported for Bind Host / IP unless 'Accept IPv6 Config' is enabled in Developer Options.\"",
+      "replace": "\"除非在开发者选项中启用“接受 IPv6 配置”，否则绑定主机 / IP 不支持 IPv6 地址。\""
+    },
+    {
+      "find": "\"Invalid IPv6 address for Bind Host / IP.\"",
+      "replace": "\"绑定主机 / IP 的 IPv6 地址无效。\""
+    },
+    {
+      "find": "\"Bind Port must be a valid number between 1 and 65535.\"",
+      "replace": "\"绑定端口必须是 1 到 65535 之间的有效数字。\""
+    },
+    {
+      "find": "label: \"Reachable\"",
+      "replace": "label: \"可达性\""
+    },
+    {
+      "find": "\"Active\"",
+      "replace": "\"活跃\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/AppGroups/AppGroupsListView.swift": [
+    {
+      "find": ".navigationTitle(\"Create App Group\")",
+      "replace": ".navigationTitle(\"创建 App Group\")"
+    },
+    {
+      "find": ".navigationTitle(\"Edit Identifier Configuration\")",
+      "replace": ".navigationTitle(\"编辑标识符配置\")"
+    },
+    {
+      "find": "Button(\"Create\"",
+      "replace": "Button(\"创建\""
+    },
+    {
+      "find": "Button(\"Save\"",
+      "replace": "Button(\"保存\""
+    },
+    {
+      "find": "Label(\"Edit\", systemImage:",
+      "replace": "Label(\"编辑\", systemImage:"
+    },
+    {
+      "find": "Label(\"Edit Name\", systemImage:",
+      "replace": "Label(\"编辑名称\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Identifier\", systemImage:",
+      "replace": "Label(\"复制标识符\", systemImage:"
+    },
+    {
+      "find": "TextField(\"Name (e.g. Shared Storage)\"",
+      "replace": "TextField(\"名称（例如 Shared Storage）\""
+    },
+    {
+      "find": "TextField(\"Group Identifier\"",
+      "replace": "TextField(\"组标识符\""
+    },
+    {
+      "find": "\"App Groups (\\(viewModel.appGroups.count))\"",
+      "replace": "\"App Groups (\\(viewModel.appGroups.count))\""
+    },
+    {
+      "find": "\"No App Groups found on Developer Portal.\"",
+      "replace": "\"开发者门户上未找到 App Groups。\""
+    },
+    {
+      "find": "\"No matching App Groups found.\"",
+      "replace": "\"未找到匹配的 App Groups。\""
+    },
+    {
+      "find": "\"Group ID: \\(group.identifier)\"",
+      "replace": "\"组 ID：\\(group.identifier)\""
+    },
+    {
+      "find": "\"Search App Groups\"",
+      "replace": "\"搜索 App Groups\""
+    },
+    {
+      "find": "\"You cannot use special characters such as @, &, *, ', \\\", -, .\"",
+      "replace": "\"不能使用 @、&、*、'、\\\"、-、. 等特殊字符\""
+    },
+    {
+      "find": "\"Are you sure you want to delete '\\(group.name)' (\\(group.groupIdentifier)) from Apple Developer Portal?\"",
+      "replace": "\"确定要从 Apple Developer 门户中删除“\\(group.name)”(\\(group.groupIdentifier)) 吗？\""
+    },
+    {
+      "find": "\"this App Group\"",
+      "replace": "\"此 App Group\""
+    },
+    {
+      "find": "Label(\"Edit Name\"",
+      "replace": "Label(\"编辑名称\""
+    },
+    {
+      "find": "Label(\"Copy Identifier\"",
+      "replace": "Label(\"复制标识符\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/AppIDs/AppIDDetailView.swift": [
+    {
+      "find": "\"App ID (Identifier)\"",
+      "replace": "\"App ID（标识符）\""
+    },
+    {
+      "find": "\"Expiration Date\"",
+      "replace": "\"过期日期\""
+    },
+    {
+      "find": "\"Capabilities & Features (\\(currentAppID.features.count))\"",
+      "replace": "\"权限与功能 (\\(currentAppID.features.count))\""
+    },
+    {
+      "find": "\"App ID Details\"",
+      "replace": "\"App ID 详情\""
+    },
+    {
+      "find": "\"Game Center\"",
+      "replace": "\"Game Center\""
+    },
+    {
+      "find": "\"In-App Purchase\"",
+      "replace": "\"App 内购买\""
+    },
+    {
+      "find": "\"Push Notifications\"",
+      "replace": "\"推送通知\""
+    },
+    {
+      "find": "\"Inter-App Audio\"",
+      "replace": "\"应用间音频\""
+    },
+    {
+      "find": "\"Associated Domains\"",
+      "replace": "\"关联域\""
+    },
+    {
+      "find": "\"Data Protection\"",
+      "replace": "\"数据保护\""
+    },
+    {
+      "find": "\"Personal VPN\"",
+      "replace": "\"个人 VPN\""
+    },
+    {
+      "find": "\"Network Extensions\"",
+      "replace": "\"网络扩展\""
+    },
+    {
+      "find": "\"NFC Tag Reading\"",
+      "replace": "\"NFC 标签读取\""
+    },
+    {
+      "find": "\"AutoFill Credential Provider\"",
+      "replace": "\"自动填充密码提供程序\""
+    },
+    {
+      "find": "\"Access WiFi Information\"",
+      "replace": "\"访问 Wi-Fi 信息\""
+    },
+    {
+      "find": "\"Wireless Accessory Config\"",
+      "replace": "\"无线配件配置\""
+    },
+    {
+      "find": "\"Increased Memory Limit\"",
+      "replace": "\"提高内存限制\""
+    },
+    {
+      "find": "\"Extended Virtual Addressing\"",
+      "replace": "\"扩展虚拟寻址\""
+    },
+    {
+      "find": "\"Increased Debugging Memory Limit\"",
+      "replace": "\"提高调试内存限制\""
+    },
+    {
+      "find": "\"Name\"",
+      "replace": "\"名称\""
+    },
+    {
+      "find": "\"Bundle Identifier\"",
+      "replace": "\"Bundle Identifier\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/AppIDs/AppIDsListView.swift": [
+    {
+      "find": ".navigationTitle(\"Register App ID\")",
+      "replace": ".navigationTitle(\"注册 App ID\")"
+    },
+    {
+      "find": "Button(\"Register\"",
+      "replace": "Button(\"注册\""
+    },
+    {
+      "find": "TextField(\"Name (e.g. My App)\"",
+      "replace": "TextField(\"名称（例如 My App）\""
+    },
+    {
+      "find": "\"Registered App IDs (\\(viewModel.appIDs.count))\"",
+      "replace": "\"已注册 App IDs (\\(viewModel.appIDs.count))\""
+    },
+    {
+      "find": "\"No App IDs registered on Developer Portal.\"",
+      "replace": "\"开发者门户上尚未注册 App ID。\""
+    },
+    {
+      "find": "\"No matching App IDs found.\"",
+      "replace": "\"未找到匹配的 App ID。\""
+    },
+    {
+      "find": "\"ID: \\(appID.identifier)\"",
+      "replace": "\"ID：\\(appID.identifier)\""
+    },
+    {
+      "find": "\"Expires: \\(formatDate(expiration))\"",
+      "replace": "\"过期时间：\\(formatDate(expiration))\""
+    },
+    {
+      "find": "\"Search App IDs\"",
+      "replace": "\"搜索 App IDs\""
+    },
+    {
+      "find": "\"Delete App ID?\"",
+      "replace": "\"删除 App ID？\""
+    },
+    {
+      "find": "\"Warning: Delete App ID?\"",
+      "replace": "\"警告：删除 App ID？\""
+    },
+    {
+      "find": "\"this App ID\"",
+      "replace": "\"此 App ID\""
+    },
+    {
+      "find": "\"Are you sure you want to delete \\(name)\\(bundleID)? This will also remove any associated provisioning profiles.\"",
+      "replace": "\"确定要删除 \\(name)\\(bundleID) 吗？这也会移除所有关联的描述文件。\""
+    },
+    {
+      "find": "\"until it expires automatically after the remaining days of its usual 7-day validity.\"",
+      "replace": "\"直到其常规 7 天有效期的剩余天数到期为止。\""
+    },
+    {
+      "find": "\"until it expires automatically in \\(days) day\\(days == 1 ? \"\" : \"s\") (from its usual 7-day validity).\"",
+      "replace": "\"直到其在 \\(days) 天后自动过期（基于常规 7 天有效期）。\""
+    },
+    {
+      "find": "\"Warning: Deleting \\(name)\\(bundleID) does not free up an App ID slot.\\n\\nThis App ID will become reserved and will not be available for use \\(expiryNotice)\\n\\nAre you sure you want to delete it?\"",
+      "replace": "\"警告：删除 \\(name)\\(bundleID) 不会释放 App ID 名额。\\n\\n该 App ID 将处于保留状态且无法使用，\\(expiryNotice)\\n\\n确定要删除吗？\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/Certificates/CertificatePortalDetailView.swift": [
+    {
+      "find": "\"Serial Number\"",
+      "replace": "\"序列号\""
+    },
+    {
+      "find": "\"Certificate ID\"",
+      "replace": "\"证书 ID\""
+    },
+    {
+      "find": "\"Certificate Type\"",
+      "replace": "\"证书类型\""
+    },
+    {
+      "find": "\"Type Name\"",
+      "replace": "\"类型名称\""
+    },
+    {
+      "find": "\"Yes (Xcode Cloud)\"",
+      "replace": "\"是 (Xcode Cloud)\""
+    },
+    {
+      "find": "\"Machine Name\"",
+      "replace": "\"设备名称\""
+    },
+    {
+      "find": "\"Machine Identifier\"",
+      "replace": "\"设备标识符\""
+    },
+    {
+      "find": "\"Created By\"",
+      "replace": "\"创建者\""
+    },
+    {
+      "find": "\"Requester Email\"",
+      "replace": "\"申请者邮箱\""
+    },
+    {
+      "find": "\"Team Name\"",
+      "replace": "\"团队名称\""
+    },
+    {
+      "find": "\"Team Identifier\"",
+      "replace": "\"团队标识符\""
+    },
+    {
+      "find": "\"Created Date\"",
+      "replace": "\"创建日期\""
+    },
+    {
+      "find": "\"Expiration Date\"",
+      "replace": "\"过期日期\""
+    },
+    {
+      "find": "\"Are you sure you want to revoke '\\(certificate.name)' on the Apple Developer Portal? This action cannot be undone.\"",
+      "replace": "\"确定要在 Apple Developer 门户上吊销“\\(certificate.name)”吗？此操作无法撤销。\""
+    },
+    {
+      "find": "InfoRow(label: \"Managed\"",
+      "replace": "InfoRow(label: \"托管状态\""
+    },
+    {
+      "find": "managed ? \"Yes (Xcode Cloud)\" : \"No\"",
+      "replace": "managed ? \"是 (Xcode Cloud)\" : \"否\""
+    },
+    {
+      "find": "InfoRow(label: \"Platform\"",
+      "replace": "InfoRow(label: \"平台\""
+    },
+    {
+      "find": "\"Status\"",
+      "replace": "\"状态\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/Certificates/CertificatesPortalListView.swift": [
+    {
+      "find": "\"Certificates (\\(viewModel.certificates.count))\"",
+      "replace": "\"证书 (\\(viewModel.certificates.count))\""
+    },
+    {
+      "find": "\"No certificates found on Developer Portal.\"",
+      "replace": "\"开发者门户上未找到证书。\""
+    },
+    {
+      "find": "\"No matching certificates found.\"",
+      "replace": "\"未找到匹配的证书。\""
+    },
+    {
+      "find": "\"Search Certificates\"",
+      "replace": "\"搜索证书\""
+    },
+    {
+      "find": "\"this certificate\"",
+      "replace": "\"此证书\""
+    },
+    {
+      "find": "\"Expires: \\(formatDate(certificate.expiryDate))\"",
+      "replace": "\"过期时间：\\(formatDate(certificate.expiryDate))\""
+    },
+    {
+      "find": "\"Serial: \\(certificate.serialNumber)\"",
+      "replace": "\"序列号：\\(certificate.serialNumber)\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/DeveloperServicesView.swift": [
+    {
+      "find": ".navigationTitle(\"Developer Portal\")",
+      "replace": ".navigationTitle(\"开发者门户\")"
+    },
+    {
+      "find": "\"Team ID: \\(team.identifier)\"",
+      "replace": "\"团队 ID：\\(team.identifier)\""
+    },
+    {
+      "find": "\"Connecting to Developer Portal...\"",
+      "replace": "\"正在连接开发者门户…\""
+    },
+    {
+      "find": "\"An unknown error occurred.\"",
+      "replace": "\"发生未知错误。\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/DeveloperServicesViewModel.swift": [
+    {
+      "find": "\"Revoked certificate '\\(certificate.name)'\"",
+      "replace": "\"已吊销证书“\\(certificate.name)”\""
+    },
+    {
+      "find": "\"Registered App ID '\\(newAppID.name)'\"",
+      "replace": "\"已注册 App ID“\\(newAppID.name)”\""
+    },
+    {
+      "find": "\"Deleted App ID '\\(appID.name)'\"",
+      "replace": "\"已删除 App ID“\\(appID.name)”\""
+    },
+    {
+      "find": "\"Updated App Groups for '\\(appID.name)'\"",
+      "replace": "\"已更新“\\(appID.name)”的 App Groups\""
+    },
+    {
+      "find": "\"Profile generated for '\\(appID.name)'\"",
+      "replace": "\"已为“\\(appID.name)”生成描述文件\""
+    },
+    {
+      "find": "\"Created profile '\\(name)'\"",
+      "replace": "\"已创建描述文件“\\(name)”\""
+    },
+    {
+      "find": "\"Profile identifier missing\"",
+      "replace": "\"缺少描述文件标识符\""
+    },
+    {
+      "find": "\"Updated profile '\\(name)'\"",
+      "replace": "\"已更新描述文件“\\(name)”\""
+    },
+    {
+      "find": "\"Profile identifier is missing\"",
+      "replace": "\"缺少描述文件标识符\""
+    },
+    {
+      "find": "\"Deleted profile '\\(profile.name)'\"",
+      "replace": "\"已删除描述文件“\\(profile.name)”\""
+    },
+    {
+      "find": "\"Created App Group '\\(newGroup.name)'\"",
+      "replace": "\"已创建 App Group“\\(newGroup.name)”\""
+    },
+    {
+      "find": "\"Deleted App Group '\\(group.name)'\"",
+      "replace": "\"已删除 App Group“\\(group.name)”\""
+    },
+    {
+      "find": "\"Updated App Group '\\(updated.name)'\"",
+      "replace": "\"已更新 App Group“\\(updated.name)”\""
+    },
+    {
+      "find": "\"Registered Device '\\(newDev.name)'\"",
+      "replace": "\"已注册设备“\\(newDev.name)”\""
+    },
+    {
+      "find": "\"Renamed Device to '\\(updated.name)'\"",
+      "replace": "\"已将设备重命名为“\\(updated.name)”\""
+    },
+    {
+      "find": "\"Disabled Device '\\(device.name)'\"",
+      "replace": "\"已停用设备“\\(device.name)”\""
+    },
+    {
+      "find": "\"Deleted Device '\\(device.name)'\"",
+      "replace": "\"已删除设备“\\(device.name)”\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/Devices/DevicesListView.swift": [
+    {
+      "find": ".navigationTitle(\"Devices\")",
+      "replace": ".navigationTitle(\"设备\")"
+    },
+    {
+      "find": ".navigationTitle(\"Edit Device\")",
+      "replace": ".navigationTitle(\"编辑设备\")"
+    },
+    {
+      "find": "Button(\"Register\"",
+      "replace": "Button(\"注册\""
+    },
+    {
+      "find": "Button(\"Save\"",
+      "replace": "Button(\"保存\""
+    },
+    {
+      "find": "Label(\"Edit\", systemImage:",
+      "replace": "Label(\"编辑\", systemImage:"
+    },
+    {
+      "find": "Label(\"Edit Name\", systemImage:",
+      "replace": "Label(\"编辑名称\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy UDID\", systemImage:",
+      "replace": "Label(\"复制 UDID\", systemImage:"
+    },
+    {
+      "find": "Picker(\"Device Type\"",
+      "replace": "Picker(\"设备类型\""
+    },
+    {
+      "find": "TextField(\"Device UDID\"",
+      "replace": "TextField(\"设备 UDID\""
+    },
+    {
+      "find": "\"Registered Devices (\\(viewModel.devices.count))\"",
+      "replace": "\"已注册设备 (\\(viewModel.devices.count))\""
+    },
+    {
+      "find": "\"No devices registered on Developer Portal.\"",
+      "replace": "\"开发者门户上尚未注册设备。\""
+    },
+    {
+      "find": "\"No matching devices found.\"",
+      "replace": "\"未找到匹配的设备。\""
+    },
+    {
+      "find": "\"Search Devices\"",
+      "replace": "\"搜索设备\""
+    },
+    {
+      "find": "\"Fetched Device UDID: \\(foundUDID.prefix(8))...\"",
+      "replace": "\"已获取设备 UDID：\\(foundUDID.prefix(8))…\""
+    },
+    {
+      "find": "\"Current Device UDID not available\"",
+      "replace": "\"无法获取当前设备 UDID\""
+    },
+    {
+      "find": "\"Not Available\"",
+      "replace": "\"不可用\""
+    },
+    {
+      "find": "\"Portal ID\"",
+      "replace": "\"门户 ID\""
+    },
+    {
+      "find": "\"Are you sure you want to disable '\\(device.name)' on the Apple Developer Portal? Disabled devices will not be included in newly generated provisioning profiles.\"",
+      "replace": "\"确定要在 Apple Developer 门户上停用“\\(device.name)”吗？停用的设备将不会包含在新生成的描述文件中。\""
+    },
+    {
+      "find": "\"Are you sure you want to delete '\\(device.name)' (\\(device.identifier)) from the Apple Developer Portal?\"",
+      "replace": "\"确定要从 Apple Developer 门户中删除“\\(device.name)”(\\(device.identifier)) 吗？\""
+    },
+    {
+      "find": "Label(\"Edit Name\"",
+      "replace": "Label(\"编辑名称\""
+    },
+    {
+      "find": "Label(\"Copy UDID\"",
+      "replace": "Label(\"复制 UDID\""
+    },
+    {
+      "find": "Label(\"Disable Device\"",
+      "replace": "Label(\"停用设备\""
+    },
+    {
+      "find": "Label(\"Delete Device\"",
+      "replace": "Label(\"删除设备\""
+    },
+    {
+      "find": "\"Status\"",
+      "replace": "\"状态\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/Profiles/CreateManualProfileView.swift": [
+    {
+      "find": ".navigationTitle(\"New Profile\")",
+      "replace": ".navigationTitle(\"新建描述文件\")"
+    },
+    {
+      "find": "Toggle(\"Manual Configuration\"",
+      "replace": "Toggle(\"手动配置\""
+    },
+    {
+      "find": "Picker(\"Profile Type\"",
+      "replace": "Picker(\"描述文件类型\""
+    },
+    {
+      "find": "TextField(\"Profile Name\"",
+      "replace": "TextField(\"描述文件名称\""
+    },
+    {
+      "find": "\"Manually select which signing certificates and test devices are authorized.\"",
+      "replace": "\"手动选择授权的签名证书和测试设备。\""
+    },
+    {
+      "find": "\"Apple automatically provisions active certificates and devices for this App ID and platform.\"",
+      "replace": "\"Apple 将为此 App ID 和平台自动配置有效证书和设备。\""
+    },
+    {
+      "find": "\"Certificates (\\(selectedCertificateIDs.count)/\\(viewModel.certificates.count))\"",
+      "replace": "\"证书 (\\(selectedCertificateIDs.count)/\\(viewModel.certificates.count))\""
+    },
+    {
+      "find": "\"Deselect All\"",
+      "replace": "\"取消全选\""
+    },
+    {
+      "find": "\"Select All\"",
+      "replace": "\"全选\""
+    },
+    {
+      "find": "\"Serial: \\(cert.serialNumber)\"",
+      "replace": "\"序列号：\\(cert.serialNumber)\""
+    },
+    {
+      "find": "\"public + private\"",
+      "replace": "\"公钥 + 私钥\""
+    },
+    {
+      "find": "\"public only\"",
+      "replace": "\"仅公钥\""
+    },
+    {
+      "find": "\"Devices (\\(selectedDeviceIDs.count)/\\(filteredDevices.count))\"",
+      "replace": "\"设备 (\\(selectedDeviceIDs.count)/\\(filteredDevices.count))\""
+    },
+    {
+      "find": "\"No registered \\(selectedProfileType.displayName) devices found on this team.\"",
+      "replace": "\"此团队下未找到已注册的 \\(selectedProfileType.displayName) 设备。\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/Profiles/ProfilePortalDetailView.swift": [
+    {
+      "find": "Picker(\"Team App ID\"",
+      "replace": "Picker(\"团队 App ID\""
+    },
+    {
+      "find": "TextField(\"Profile Name\"",
+      "replace": "TextField(\"描述文件名称\""
+    },
+    {
+      "find": "TextField(\"App ID Identifier (e.g. R7V954WR9W)\"",
+      "replace": "TextField(\"App ID 标识符（例如 R7V954WR9W）\""
+    },
+    {
+      "find": "TextField(\"Add Custom Certificate ID\"",
+      "replace": "TextField(\"添加自定义证书 ID\""
+    },
+    {
+      "find": "TextField(\"Add Custom Device ID / UDID\"",
+      "replace": "TextField(\"添加自定义设备 ID / UDID\""
+    },
+    {
+      "find": "\"Managed By\"",
+      "replace": "\"管理方式\""
+    },
+    {
+      "find": "\"Xcode (Team Profile)\"",
+      "replace": "\"Xcode（团队描述文件）\""
+    },
+    {
+      "find": "\"Manual (Portal)\"",
+      "replace": "\"手动（门户）\""
+    },
+    {
+      "find": "\"Expiration Date\"",
+      "replace": "\"过期日期\""
+    },
+    {
+      "find": "\"Associated Certificates (\\(selectedCertificateIDs.count))\"",
+      "replace": "\"关联证书 (\\(selectedCertificateIDs.count))\""
+    },
+    {
+      "find": "\"Serial: \\(cert.serialNumber)\"",
+      "replace": "\"序列号：\\(cert.serialNumber)\""
+    },
+    {
+      "find": "\"public + private\"",
+      "replace": "\"公钥 + 私钥\""
+    },
+    {
+      "find": "\"public only\"",
+      "replace": "\"仅公钥\""
+    },
+    {
+      "find": "\"Associated Devices (\\(selectedDeviceIDs.count))\"",
+      "replace": "\"关联设备 (\\(selectedDeviceIDs.count))\""
+    },
+    {
+      "find": "\"Deselect All\"",
+      "replace": "\"取消全选\""
+    },
+    {
+      "find": "\"Select All\"",
+      "replace": "\"全选\""
+    },
+    {
+      "find": "\"Are you sure you want to delete '\\(profile.name)' from the Apple Developer Portal?\"",
+      "replace": "\"确定要从 Apple Developer 门户中删除“\\(profile.name)”吗？\""
+    },
+    {
+      "find": "\"Type\"",
+      "replace": "\"类型\""
+    },
+    {
+      "find": "\"Status\"",
+      "replace": "\"状态\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/DeveloperServices/Profiles/ProfilesListView.swift": [
+    {
+      "find": ".navigationTitle(\"Profiles\")",
+      "replace": ".navigationTitle(\"描述文件\")"
+    },
+    {
+      "find": ".alert(\"Purge All Profiles?\"",
+      "replace": ".alert(\"清除所有描述文件？\""
+    },
+    {
+      "find": "\"Provisioning Profiles (\\(viewModel.profiles.count))\"",
+      "replace": "\"描述文件 (\\(viewModel.profiles.count))\""
+    },
+    {
+      "find": "\"No Provisioning Profiles found on Developer Portal.\"",
+      "replace": "\"开发者门户上未找到描述文件。\""
+    },
+    {
+      "find": "\"No matching Provisioning Profiles found.\"",
+      "replace": "\"未找到匹配的描述文件。\""
+    },
+    {
+      "find": "\"Search Profiles\"",
+      "replace": "\"搜索描述文件\""
+    },
+    {
+      "find": "\"this profile\"",
+      "replace": "\"此描述文件\""
+    },
+    {
+      "find": "\"Delete All (\\(viewModel.profiles.count))\"",
+      "replace": "\"全部删除 (\\(viewModel.profiles.count))\""
+    },
+    {
+      "find": "\"Expires: \\(formatDate(profile.dateExpire))\"",
+      "replace": "\"过期时间：\\(formatDate(profile.dateExpire))\""
+    },
+    {
+      "find": "\"Xcode Managed\"",
+      "replace": "\"Xcode 托管\""
+    },
+    {
+      "find": "isTeam ? \"Xcode Managed\" : \"Manual\"",
+      "replace": "isTeam ? \"Xcode 托管\" : \"手动\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/JIT/SideJITServerConfigView.swift": [
+    {
+      "find": "Label(\"Copy Address\", systemImage:",
+      "replace": "Label(\"复制地址\", systemImage:"
+    },
+    {
+      "find": "Label(\"Test Connection (Ping)\", systemImage:",
+      "replace": "Label(\"测试连接 (Ping)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Refresh Device Cache (/re/)\", systemImage:",
+      "replace": "Label(\"刷新设备缓存 (/re/)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Check Version Info (/ver/)\", systemImage:",
+      "replace": "Label(\"检查版本信息 (/ver/)\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Response\", systemImage:",
+      "replace": "Label(\"复制响应\", systemImage:"
+    },
+    {
+      "find": "\"Ready (\\(latency) ms)\"",
+      "replace": "\"就绪 (\\(latency) ms)\""
+    },
+    {
+      "find": "\"Discovering Bonjour…\"",
+      "replace": "\"正在发现 Bonjour…\""
+    },
+    {
+      "find": "\"Checking Connection…\"",
+      "replace": "\"正在检查连接…\""
+    },
+    {
+      "find": "\"Auto (Bonjour mDNS)\"",
+      "replace": "\"自动 (Bonjour mDNS)\""
+    },
+    {
+      "find": "\"Manual Override\"",
+      "replace": "\"手动覆盖\""
+    },
+    {
+      "find": "\"Error: \\(error.localizedDescription)\"",
+      "replace": "\"错误：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "Label(\"Copy Address\"",
+      "replace": "Label(\"复制地址\""
+    },
+    {
+      "find": "Label(\"Copy Response\"",
+      "replace": "Label(\"复制响应\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/NetworkDiscovery/BonjourDiscoveryView.swift": [
+    {
+      "find": ".navigationTitle(\"Discovery\")",
+      "replace": ".navigationTitle(\"网络发现\")"
+    },
+    {
+      "find": ".navigationTitle(\"Service Details\")",
+      "replace": ".navigationTitle(\"服务详情\")"
+    },
+    {
+      "find": "Label(\"None\", systemImage:",
+      "replace": "Label(\"无\", systemImage:"
+    },
+    {
+      "find": "Label(\"First Letter\", systemImage:",
+      "replace": "Label(\"首字母\", systemImage:"
+    },
+    {
+      "find": "Label(\"Group By\", systemImage:",
+      "replace": "Label(\"分组方式\", systemImage:"
+    },
+    {
+      "find": "Label(\"Name (A to Z)\", systemImage:",
+      "replace": "Label(\"名称（A 到 Z）\", systemImage:"
+    },
+    {
+      "find": "Label(\"Name (Z to A)\", systemImage:",
+      "replace": "Label(\"名称（Z 到 A）\", systemImage:"
+    },
+    {
+      "find": "Label(\"Sort By\", systemImage:",
+      "replace": "Label(\"排序方式\", systemImage:"
+    },
+    {
+      "find": "Label(\"IPv4 First\", systemImage:",
+      "replace": "Label(\"IPv4 优先\", systemImage:"
+    },
+    {
+      "find": "Label(\"IPv6 First\", systemImage:",
+      "replace": "Label(\"IPv6 优先\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Interface\", systemImage:",
+      "replace": "Label(\"复制网络接口\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy\", systemImage:",
+      "replace": "Label(\"复制\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy SSH Command\", systemImage:",
+      "replace": "Label(\"复制 SSH 命令\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Host:Port Endpoint\", systemImage:",
+      "replace": "Label(\"复制主机:端口地址\", systemImage:"
+    },
+    {
+      "find": "Label(\"Copy Details as JSON\", systemImage:",
+      "replace": "Label(\"以 JSON 格式复制详情\", systemImage:"
+    },
+    {
+      "find": ".confirmationDialog(\"Filter & Sort\"",
+      "replace": ".confirmationDialog(\"筛选与排序\""
+    },
+    {
+      "find": ".confirmationDialog(\"Group By\"",
+      "replace": ".confirmationDialog(\"分组方式\""
+    },
+    {
+      "find": ".confirmationDialog(\"Sort By\"",
+      "replace": ".confirmationDialog(\"排序方式\""
+    },
+    {
+      "find": "\"Searching for domains…\"",
+      "replace": "\"正在搜索域…\""
+    },
+    {
+      "find": "\"Group: None\"",
+      "replace": "\"分组：无\""
+    },
+    {
+      "find": "\"Group: First Letter\"",
+      "replace": "\"分组：首字母\""
+    },
+    {
+      "find": "\"Sort: Name (Z to A)\"",
+      "replace": "\"排序：名称 (Z → A)\""
+    },
+    {
+      "find": "\"Sort: Name (A to Z)\"",
+      "replace": "\"排序：名称 (A → Z)\""
+    },
+    {
+      "find": "\"Searching for service types…\"",
+      "replace": "\"正在搜索服务类型…\""
+    },
+    {
+      "find": "\"Searching for instances…\"",
+      "replace": "\"正在搜索实例…\""
+    },
+    {
+      "find": "\"Discovered Interfaces (\\(service.interfaces.count))\"",
+      "replace": "\"已发现接口 (\\(service.interfaces.count))\""
+    },
+    {
+      "find": "\"OS Version\"",
+      "replace": "\"系统版本\""
+    },
+    {
+      "find": "\"TXT Record (\\(resolved.txtRecords.count))\"",
+      "replace": "\"TXT 记录 (\\(resolved.txtRecords.count))\""
+    },
+    {
+      "find": "\"Copy \\(rec.recordType) Record\"",
+      "replace": "\"复制 \\(rec.recordType) 记录\""
+    },
+    {
+      "find": "\"Open in Safari (\\(scheme)://)\"",
+      "replace": "\"在 Safari 中打开 (\\(scheme)://)\""
+    },
+    {
+      "find": "\"Copy \\(label)\"",
+      "replace": "\"复制\\(label)\""
+    },
+    {
+      "find": "Label(\"Group By\"",
+      "replace": "Label(\"分组方式\""
+    },
+    {
+      "find": "Label(\"Sort By\"",
+      "replace": "Label(\"排序方式\""
+    },
+    {
+      "find": "Label(\"IPv4 First\"",
+      "replace": "Label(\"IPv4 优先\""
+    },
+    {
+      "find": "Label(\"IPv6 First\"",
+      "replace": "Label(\"IPv6 优先\""
+    },
+    {
+      "find": "DetailRow(label: \"Hostname\"",
+      "replace": "DetailRow(label: \"主机名\""
+    },
+    {
+      "find": "DetailRow(label: \"Domain\"",
+      "replace": "DetailRow(label: \"域\""
+    },
+    {
+      "find": "Label(\"Copy Interface\"",
+      "replace": "Label(\"复制接口\""
+    },
+    {
+      "find": "DetailRow(label: \"Model\"",
+      "replace": "DetailRow(label: \"型号\""
+    },
+    {
+      "find": "Label(\"Copy SSH Command\"",
+      "replace": "Label(\"复制 SSH 命令\""
+    },
+    {
+      "find": "Label(\"Copy Host:Port Endpoint\"",
+      "replace": "Label(\"复制主机:端口端点\""
+    },
+    {
+      "find": "Label(\"Copy Details as JSON\"",
+      "replace": "Label(\"以 JSON 复制详情\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/NetworkDiscovery/BonjourDiscoveryViewModel.swift": [
+    {
+      "find": "\"Name (A to Z)\"",
+      "replace": "\"名称 (A → Z)\""
+    },
+    {
+      "find": "\"Name (Z to A)\"",
+      "replace": "\"名称 (Z → A)\""
+    },
+    {
+      "find": "\"Raw Type Identifier\"",
+      "replace": "\"原始类型标识符\""
+    },
+    {
+      "find": "\"Protocol (TCP / UDP)\"",
+      "replace": "\"协议 (TCP / UDP)\""
+    },
+    {
+      "find": "\"Category (Recognized / Other)\"",
+      "replace": "\"分类（已识别 / 其他）\""
+    },
+    {
+      "find": "\"First Letter\"",
+      "replace": "\"首字母\""
+    },
+    {
+      "find": "\"IP Version (v4/v6)\"",
+      "replace": "\"IP 版本 (v4/v6)\""
+    },
+    {
+      "find": "\"Browsable Domains\"",
+      "replace": "\"可浏览的域\""
+    },
+    {
+      "find": "\"TCP Services (\\(tcpItems.count))\"",
+      "replace": "\"TCP 服务 (\\(tcpItems.count))\""
+    },
+    {
+      "find": "\"UDP Services (\\(udpItems.count))\"",
+      "replace": "\"UDP 服务 (\\(udpItems.count))\""
+    },
+    {
+      "find": "\"Other Services (\\(otherItems.count))\"",
+      "replace": "\"其他服务 (\\(otherItems.count))\""
+    },
+    {
+      "find": "\"Recognized Services (\\(recognized.count))\"",
+      "replace": "\"已识别服务 (\\(recognized.count))\""
+    },
+    {
+      "find": "\"Other / Raw Services (\\(unknown.count))\"",
+      "replace": "\"其他 / 原始服务 (\\(unknown.count))\""
+    },
+    {
+      "find": "\"IPv4 Address\"",
+      "replace": "\"IPv4 地址\""
+    },
+    {
+      "find": "\"IPv6 Address (Link-Local)\"",
+      "replace": "\"IPv6 地址（链路本地）\""
+    },
+    {
+      "find": "\"IPv6 Address (Unique-Local)\"",
+      "replace": "\"IPv6 地址（唯一本地）\""
+    },
+    {
+      "find": "\"IPv6 Address\"",
+      "replace": "\"IPv6 地址\""
+    },
+    {
+      "find": "\"Well-Known Port\"",
+      "replace": "\"知名端口\""
+    },
+    {
+      "find": "\"Registered Port\"",
+      "replace": "\"已注册端口\""
+    },
+    {
+      "find": "\"Dynamic / Ephemeral Port\"",
+      "replace": "\"动态 / 临时端口\""
+    },
+    {
+      "find": "\"Unknown Type\"",
+      "replace": "\"未知类型\""
+    },
+    {
+      "find": "\"IPv6 Link-Local\"",
+      "replace": "\"IPv6 链路本地\""
+    },
+    {
+      "find": "\"IPv6 Loopback\"",
+      "replace": "\"IPv6 回环\""
+    },
+    {
+      "find": "\"IPv6 Global/ULA\"",
+      "replace": "\"IPv6 全局/ULA\""
+    },
+    {
+      "find": "\"IPv4 Loopback\"",
+      "replace": "\"IPv4 回环\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/PairingFile/PairingFileDetailView.swift": [
+    {
+      "find": "Button(\"Save\"",
+      "replace": "Button(\"保存\""
+    },
+    {
+      "find": "Button(\"Edit\"",
+      "replace": "Button(\"编辑\""
+    },
+    {
+      "find": ".alert(\"Invalid Property List\"",
+      "replace": ".alert(\"无效的属性列表\""
+    },
+    {
+      "find": "\"Remote Pairing File\"",
+      "replace": "\"远程配对文件\""
+    },
+    {
+      "find": "\"Lockdown Pairing File\"",
+      "replace": "\"Lockdown 配对文件\""
+    },
+    {
+      "find": "\"Copy XML\"",
+      "replace": "\"复制 XML\""
+    },
+    {
+      "find": "\"File Name\"",
+      "replace": "\"文件名\""
+    },
+    {
+      "find": "\"Protocol Type\"",
+      "replace": "\"协议类型\""
+    },
+    {
+      "find": "\"RPPairing (Tunnel)\"",
+      "replace": "\"RPPairing（隧道）\""
+    },
+    {
+      "find": "\"Not Found\"",
+      "replace": "\"未找到\""
+    },
+    {
+      "find": "\"File Size\"",
+      "replace": "\"文件大小\""
+    },
+    {
+      "find": "\"Date Created\"",
+      "replace": "\"创建日期\""
+    },
+    {
+      "find": "\"Date Modified\"",
+      "replace": "\"修改日期\""
+    },
+    {
+      "find": "\"EDIT RAW XML\"",
+      "replace": "\"编辑原始 XML\""
+    },
+    {
+      "find": "\"RAW XML CONTENT\"",
+      "replace": "\"原始 XML 内容\""
+    },
+    {
+      "find": "\"Could not encode text as UTF-8.\"",
+      "replace": "\"无法将文本编码为 UTF-8。\""
+    },
+    {
+      "find": "\"The property list contains syntax errors: \\(error.localizedDescription)\"",
+      "replace": "\"属性列表包含语法错误：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Failed to save pairing file: \\(error.localizedDescription)\"",
+      "replace": "\"保存配对文件失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "isInstalled ? \"Installed\" : \"Not Found\"",
+      "replace": "isInstalled ? \"已安装\" : \"未找到\""
+    },
+    {
+      "find": "metadataRow(label: \"Status\"",
+      "replace": "metadataRow(label: \"状态\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/PairingFile/PairingFileManagementView.swift": [
+    {
+      "find": ".navigationTitle(\"Pairing File Management\")",
+      "replace": ".navigationTitle(\"配对文件管理\")"
+    },
+    {
+      "find": "Label(\"Clear Preferred Protocol\", systemImage:",
+      "replace": "Label(\"清除首选协议\", systemImage:"
+    },
+    {
+      "find": "Label(\"Set as Preferred\", systemImage:",
+      "replace": "Label(\"设为首选\", systemImage:"
+    },
+    {
+      "find": "Label(\"Remove as Preferred\", systemImage:",
+      "replace": "Label(\"取消首选\", systemImage:"
+    },
+    {
+      "find": "Label(\"Currently Active\", systemImage:",
+      "replace": "Label(\"当前使用中\", systemImage:"
+    },
+    {
+      "find": "Label(\"Import / Replace File\", systemImage:",
+      "replace": "Label(\"导入 / 替换文件\", systemImage:"
+    },
+    {
+      "find": "Label(\"Delete Pairing File\", systemImage:",
+      "replace": "Label(\"删除配对文件\", systemImage:"
+    },
+    {
+      "find": "Label(\"Import Pairing File\", systemImage:",
+      "replace": "Label(\"导入配对文件\", systemImage:"
+    },
+    {
+      "find": "\"Toggle Sensitive Information\"",
+      "replace": "\"切换敏感信息显示\""
+    },
+    {
+      "find": "\"Are you sure you want to delete this pairing file? This will remove the pairing credentials for **\\(proto.rawValue)**.\"",
+      "replace": "\"确定要删除此配对文件吗？这将移除 **\\(proto.rawValue)** 的配对凭据。\""
+    },
+    {
+      "find": "\"This will delete all stored pairing files (both **Lockdown** and **Remote Pairing**). You will need to re-pair or re-import a pairing file and restart SideStore.\"",
+      "replace": "\"这将删除所有已保存的配对文件（包括 **Lockdown** 和 **Remote Pairing**）。你需要重新配对或重新导入配对文件并重启 SideStore。\""
+    },
+    {
+      "find": "\"File Name\"",
+      "replace": "\"文件名\""
+    },
+    {
+      "find": "\"Key Material\"",
+      "replace": "\"密钥材料\""
+    },
+    {
+      "find": "\"Public & Private Keys OK\"",
+      "replace": "\"公钥与私钥正常\""
+    },
+    {
+      "find": "\"Incomplete Keys\"",
+      "replace": "\"密钥不完整\""
+    },
+    {
+      "find": "\"Hardware UDID\"",
+      "replace": "\"硬件 UDID\""
+    },
+    {
+      "find": "\"WiFi MAC\"",
+      "replace": "\"Wi-Fi MAC\""
+    },
+    {
+      "find": "\"File Size\"",
+      "replace": "\"文件大小\""
+    },
+    {
+      "find": "\"Date Created\"",
+      "replace": "\"创建日期\""
+    },
+    {
+      "find": "\"Date Modified\"",
+      "replace": "\"修改日期\""
+    },
+    {
+      "find": "\"Remote Pairing File\"",
+      "replace": "\"远程配对文件\""
+    },
+    {
+      "find": "\"Lockdown Pairing File\"",
+      "replace": "\"Lockdown 配对文件\""
+    },
+    {
+      "find": "Label(\"Clear Preferred Protocol\"",
+      "replace": "Label(\"清除偏好协议\""
+    },
+    {
+      "find": "Label(\"Set as Preferred\"",
+      "replace": "Label(\"设为偏好\""
+    },
+    {
+      "find": "Label(\"Remove as Preferred\"",
+      "replace": "Label(\"取消偏好\""
+    },
+    {
+      "find": "Label(\"Currently Active\"",
+      "replace": "Label(\"当前已激活\""
+    },
+    {
+      "find": "Label(\"Import / Replace File\"",
+      "replace": "Label(\"导入 / 替换文件\""
+    },
+    {
+      "find": "Label(\"Delete Pairing File\"",
+      "replace": "Label(\"删除配对文件\""
+    },
+    {
+      "find": "Label(\"Import Pairing File\"",
+      "replace": "Label(\"导入配对文件\""
+    },
+    {
+      "find": "\"Identifier\"",
+      "replace": "\"标识符\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/PairingFile/PairingFileManagementViewModel.swift": [
+    {
+      "find": "\"Failed to import pairing file: \\(error.localizedDescription)\"",
+      "replace": "\"导入配对文件失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Your saved preference is **%@**, but the provided pairing file is **%@**.\\n\\nDo you want to switch and accept **%@** as your preferred protocol, or load it without changing your preference?\"",
+      "replace": "\"你保存的偏好协议是 **%@**，但提供的配对文件属于 **%@**。\\n\\n是否切换并将 **%@** 设为偏好协议，还是仅加载而不更改偏好？\""
+    },
+    {
+      "find": "\"Failed to activate \\(proto.rawValue): \\(error.localizedDescription)\"",
+      "replace": "\"激活 \\(proto.rawValue) 失败：\\(error.localizedDescription)\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/PairingFile/PairingViewController.swift": [
+    {
+      "find": "\"Select the pairing file or select \\\"Help\\\" for help.\"",
+      "replace": "\"选择配对文件，或点选“帮助”获取指引。\""
+    },
+    {
+      "find": "\"Your saved preference is **%@**, but the provided pairing file is **%@**.\\n\\nDo you want to switch and accept **%@** as your current protocol?\"",
+      "replace": "\"你保存的偏好协议是 **%@**，但提供的配对文件属于 **%@**。\\n\\n是否切换并将 **%@** 设为当前协议？\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/PairingFile/WirelessPair/WirelessPairTargetDialog.swift": [
+    {
+      "find": "Button(\"Select\"",
+      "replace": "Button(\"选择\""
+    },
+    {
+      "find": "\"Select Device To Pair\"",
+      "replace": "\"选择要配对的设备\""
+    },
+    {
+      "find": "\"Select Server Interface\"",
+      "replace": "\"选择服务器接口\""
+    },
+    {
+      "find": "\"Port: \\(portString)\"",
+      "replace": "\"端口：\\(portString)\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/PairingFile/WirelessPair/WirelessPairView.swift": [
+    {
+      "find": "Button(\"Pair\"",
+      "replace": "Button(\"配对\""
+    },
+    {
+      "find": "TextField(\"6-digit PIN\"",
+      "replace": "TextField(\"6 位 PIN 码\""
+    },
+    {
+      "find": ".alert(\"Enter Pairing PIN\"",
+      "replace": ".alert(\"输入配对 PIN 码\""
+    },
+    {
+      "find": "\"Connect to Target Device\"",
+      "replace": "\"连接到目标设备\""
+    },
+    {
+      "find": "\"Device ID\"",
+      "replace": "\"设备 ID\""
+    },
+    {
+      "find": "\"Copy \\(label)\"",
+      "replace": "\"复制\\(label)\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/PairingFile/WirelessPair/WirelessPairViewModel.swift": [
+    {
+      "find": "\"Apple TV / Manual\"",
+      "replace": "\"Apple TV / 手动\""
+    },
+    {
+      "find": "\"Pairable Host\"",
+      "replace": "\"可配对主机\""
+    },
+    {
+      "find": "\"Remote Device\"",
+      "replace": "\"远程设备\""
+    },
+    {
+      "find": "\"Ready to pair\"",
+      "replace": "\"准备就绪，可以配对\""
+    },
+    {
+      "find": "\"Tap Start to advertise this device on the local network.\"",
+      "replace": "\"轻点“开始”在本地网络上广播此设备。\""
+    },
+    {
+      "find": "\"Advertising server...\"",
+      "replace": "\"正在广播服务器…\""
+    },
+    {
+      "find": "\"Ensure both devices are on the same Wi-Fi.\"",
+      "replace": "\"请确保两台设备连接到同一 Wi-Fi。\""
+    },
+    {
+      "find": "\"Device Connected\"",
+      "replace": "\"设备已连接\""
+    },
+    {
+      "find": "\"Enter the pairing code shown below on your other device settings screen.\"",
+      "replace": "\"请在另一台设备的设置界面中输入下方显示的配对码。\""
+    },
+    {
+      "find": "\"Enter Pairing PIN\"",
+      "replace": "\"输入配对 PIN 码\""
+    },
+    {
+      "find": "\"Enter the 6-digit code shown on your Apple TV / device screen.\"",
+      "replace": "\"请输入 Apple TV / 设备屏幕上显示的 6 位数字配对码。\""
+    },
+    {
+      "find": "\"Waiting for connection...\"",
+      "replace": "\"正在等待连接…\""
+    },
+    {
+      "find": "\"Open Remote Pairing on your Apple TV / Vision Pro / host device to discover this server.\"",
+      "replace": "\"在你的 Apple TV / Vision Pro / 主机设备上打开远程配对以发现此服务器。\""
+    },
+    {
+      "find": "\"Successfully paired with \\(device.name) (\\(device.model))!\\nPairing file saved to documents.\"",
+      "replace": "\"已成功与 \\(device.name) (\\(device.model)) 配对！\\n配对文件已保存至文稿目录。\""
+    },
+    {
+      "find": "\"Pairing Failed\"",
+      "replace": "\"配对失败\""
+    },
+    {
+      "find": "\"An error occurred during pairing.\"",
+      "replace": "\"配对过程中发生错误。\""
+    },
+    {
+      "find": "\"Connecting to device...\"",
+      "replace": "\"正在连接设备…\""
+    },
+    {
+      "find": "\"Initiating pairing handshake on \\(targetIp):\\(targetPort)...\"",
+      "replace": "\"正在 \\(targetIp):\\(targetPort) 上发起配对握手…\""
+    },
+    {
+      "find": "\"An error occurred during pairing: \\(error.localizedDescription)\"",
+      "replace": "\"配对过程中发生错误：\\(error.localizedDescription)\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Profiles/ProfileManagementView.swift": [
+    {
+      "find": ".navigationTitle(\"Profile Management\")",
+      "replace": ".navigationTitle(\"描述文件管理\")"
+    },
+    {
+      "find": "Button(\"Delete from Portal & Locally\"",
+      "replace": "Button(\"从开发者门户和本地删除\""
+    },
+    {
+      "find": "Button(\"Delete Locally Only\"",
+      "replace": "Button(\"仅从本地删除\""
+    },
+    {
+      "find": "Button(\"Import from Files\"",
+      "replace": "Button(\"从“文件”导入\""
+    },
+    {
+      "find": "Button(\"Create on Developer Portal\"",
+      "replace": "Button(\"在开发者门户创建\""
+    },
+    {
+      "find": "Label(\"Edit\", systemImage:",
+      "replace": "Label(\"编辑\", systemImage:"
+    },
+    {
+      "find": "Label(\"Share\", systemImage:",
+      "replace": "Label(\"共享\", systemImage:"
+    },
+    {
+      "find": "Label(\"Edit on Developer Portal\", systemImage:",
+      "replace": "Label(\"在开发者门户编辑\", systemImage:"
+    },
+    {
+      "find": "Label(\"Share Profile\", systemImage:",
+      "replace": "Label(\"共享描述文件\", systemImage:"
+    },
+    {
+      "find": "Label(\"Delete Profile\", systemImage:",
+      "replace": "Label(\"删除描述文件\", systemImage:"
+    },
+    {
+      "find": ".alert(\"Delete Portal Profile?\"",
+      "replace": ".alert(\"删除开发者门户描述文件？\""
+    },
+    {
+      "find": ".confirmationDialog(\"Add Provisioning Profile\"",
+      "replace": ".confirmationDialog(\"添加描述文件\""
+    },
+    {
+      "find": "\"Provisioning Profiles (\\(filteredProfiles.count))\"",
+      "replace": "\"描述文件 (\\(filteredProfiles.count))\""
+    },
+    {
+      "find": "\"No provisioning profiles installed. Tap '+' to import or pull to refresh.\"",
+      "replace": "\"尚未安装描述文件。轻点“+”导入或下拉刷新。\""
+    },
+    {
+      "find": "\"No matching provisioning profiles found.\"",
+      "replace": "\"未找到匹配的描述文件。\""
+    },
+    {
+      "find": "\"Search Profiles\"",
+      "replace": "\"搜索描述文件\""
+    },
+    {
+      "find": "\"Import canceled: \\(error.localizedDescription)\"",
+      "replace": "\"已取消导入：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Found matching signing certificate '\\(certName)' with private key in SideStore.\\n\\nWould you like to link and save this profile?\"",
+      "replace": "\"在 SideStore 中找到匹配的含私钥签名证书“\\(certName)”。\\n\\n是否关联并保存此描述文件？\""
+    },
+    {
+      "find": "\"Found certificate '\\(certName)' in this profile, but no matching private key (.p12) was found in SideStore.\\n\\nContinuing means this profile will not be usable for signing apps until a matching signing certificate with private key is imported.\"",
+      "replace": "\"在此描述文件中找到证书“\\(certName)”，但 SideStore 中未找到匹配的私钥 (.p12)。\\n\\n继续保存意味着在导入匹配的含私钥签名证书之前，该描述文件将无法用于签名应用。\""
+    },
+    {
+      "find": "\"This provisioning profile contains \\(count) developer certificate(s), but none match any signing certificates in SideStore.\\n\\nContinuing means this profile will not be usable for signing apps until a matching signing certificate with private key is imported.\"",
+      "replace": "\"此描述文件包含 \\(count) 个开发者证书，但均与 SideStore 中的签名证书不匹配。\\n\\n继续保存意味着在导入匹配的含私钥签名证书之前，该描述文件将无法用于签名应用。\""
+    },
+    {
+      "find": "\"this profile\"",
+      "replace": "\"此描述文件\""
+    },
+    {
+      "find": "\"This profile\"",
+      "replace": "\"此描述文件\""
+    },
+    {
+      "find": "\"An unknown error occurred.\"",
+      "replace": "\"发生未知错误。\""
+    },
+    {
+      "find": "\"Invalid provisioning profile: \\(error.localizedDescription)\"",
+      "replace": "\"无效的描述文件：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Imported '\\(profile.name)' successfully\"",
+      "replace": "\"已成功导入“\\(profile.name)”\""
+    },
+    {
+      "find": "\"Failed to import profile: \\(error.localizedDescription)\"",
+      "replace": "\"导入描述文件失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Import Provisioning Profile\"",
+      "replace": "\"导入描述文件\""
+    },
+    {
+      "find": "\"Export Provisioning Profile\"",
+      "replace": "\"导出描述文件\""
+    },
+    {
+      "find": "\"Expires: \\(formatDate(profile.expirationDate))\"",
+      "replace": "\"过期时间：\\(formatDate(profile.expirationDate))\""
+    },
+    {
+      "find": "\"Signer: \\(cert.name)\"",
+      "replace": "\"签名者：\\(cert.name)\""
+    },
+    {
+      "find": "\"Assigned: \\(assignedApps.joined(separator: \", \"))\"",
+      "replace": "\"已分配：\\(assignedApps.joined(separator: \", \"))\""
+    },
+    {
+      "find": "Label(\"Edit on Developer Portal\"",
+      "replace": "Label(\"在开发者门户编辑\""
+    },
+    {
+      "find": "Label(\"Share Profile\"",
+      "replace": "Label(\"分享描述文件\""
+    },
+    {
+      "find": "Label(\"Delete Profile\"",
+      "replace": "Label(\"删除描述文件\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Profiles/ProfileManagementViewModel.swift": [
+    {
+      "find": "\"Deleted locally, but failed to delete from Developer Portal: \\(error.localizedDescription)\"",
+      "replace": "\"已从本地删除，但从开发者门户删除失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Deleted profile '\\(profile.name)'\"",
+      "replace": "\"已删除描述文件“\\(profile.name)”\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Profiles/SelectProfileViewController.swift": [
+    {
+      "find": "Label(\"Ready to Sign\", systemImage:",
+      "replace": "Label(\"准备就绪，可签名\", systemImage:"
+    },
+    {
+      "find": "Label(\"Missing .p12\", systemImage:",
+      "replace": "Label(\"缺少 .p12 文件\", systemImage:"
+    },
+    {
+      "find": "\"Expires: \\(expirationString)\"",
+      "replace": "\"过期时间：\\(expirationString)\""
+    },
+    {
+      "find": "\"Cert: \\(cert.name)\"",
+      "replace": "\"证书：\\(cert.name)\""
+    },
+    {
+      "find": "Label(\"Ready to Sign\"",
+      "replace": "Label(\"可签名\""
+    },
+    {
+      "find": "Label(\"Missing .p12\"",
+      "replace": "Label(\"缺少 .p12\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/Profiles/SetProfileAlertViewController.swift": [
+    {
+      "find": "\"Active Developer Cert\"",
+      "replace": "\"当前开发者证书\""
+    },
+    {
+      "find": "\"Default (Apple ID Managed)\"",
+      "replace": "\"默认（Apple ID 托管）\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/UserCustomizations/SideSign/SideSignConfigurationView.swift": [
+    {
+      "find": ".navigationTitle(\"SideSign Config\")",
+      "replace": ".navigationTitle(\"SideSign 配置\")"
+    },
+    {
+      "find": "Button(\"Reset\"",
+      "replace": "Button(\"重置\""
+    },
+    {
+      "find": "Label(\"Save Overrides\", systemImage:",
+      "replace": "Label(\"保存覆盖配置\", systemImage:"
+    },
+    {
+      "find": "Label(\"Save Raw JSON\", systemImage:",
+      "replace": "Label(\"保存原始 JSON\", systemImage:"
+    },
+    {
+      "find": "Label(\"Import Config JSON\", systemImage:",
+      "replace": "Label(\"导入配置 JSON\", systemImage:"
+    },
+    {
+      "find": "Label(\"Export Config JSON\", systemImage:",
+      "replace": "Label(\"导出配置 JSON\", systemImage:"
+    },
+    {
+      "find": "Picker(\"View Mode\"",
+      "replace": "Picker(\"查看模式\""
+    },
+    {
+      "find": ".alert(\"Reset to Defaults?\"",
+      "replace": ".alert(\"恢复默认设置？\""
+    },
+    {
+      "find": "\"Saved SideSign headers successfully.\"",
+      "replace": "\"已成功保存 SideSign 请求头。\""
+    },
+    {
+      "find": "\"Encoding Failed\"",
+      "replace": "\"编码失败\""
+    },
+    {
+      "find": "\"Unable to encode JSON as UTF-8.\"",
+      "replace": "\"无法将 JSON 编码为 UTF-8。\""
+    },
+    {
+      "find": "\"SideSign JSON configuration saved successfully!\"",
+      "replace": "\"SideSign JSON 配置保存成功！\""
+    },
+    {
+      "find": "\"Invalid JSON Structure\"",
+      "replace": "\"无效的 JSON 结构\""
+    },
+    {
+      "find": "\"Reset to default SideSign configuration.\"",
+      "replace": "\"已重置为默认 SideSign 配置。\""
+    },
+    {
+      "find": "\"Imported successfully\"",
+      "replace": "\"导入成功\""
+    },
+    {
+      "find": "\"Import Failed\"",
+      "replace": "\"导入失败\""
+    },
+    {
+      "find": "\"Export Failed\"",
+      "replace": "\"导出失败\""
+    },
+    {
+      "find": "\"GRANDSLAM AUTH (GSA)\"",
+      "replace": "\"GRANDSLAM 认证 (GSA)\""
+    },
+    {
+      "find": "\"Header Version\"",
+      "replace": "\"Header 版本\""
+    },
+    {
+      "find": "\"Header: Version\"",
+      "replace": "\"Header：版本\""
+    },
+    {
+      "find": "\"Auth App\"",
+      "replace": "\"认证应用\""
+    },
+    {
+      "find": "\"User Agent\"",
+      "replace": "\"User-Agent\""
+    },
+    {
+      "find": "\"APPLE AUTH (IDMSA)\"",
+      "replace": "\"APPLE 认证 (IDMSA)\""
+    },
+    {
+      "find": "\"App ID Key\"",
+      "replace": "\"App ID 密钥\""
+    },
+    {
+      "find": "\"DEVELOPER SERVICES\"",
+      "replace": "\"开发者服务\""
+    },
+    {
+      "find": "\"Client ID\"",
+      "replace": "\"客户端 ID\""
+    },
+    {
+      "find": "\"Protocol Version\"",
+      "replace": "\"协议版本\""
+    },
+    {
+      "find": "\"Services Version\"",
+      "replace": "\"服务版本\""
+    },
+    {
+      "find": "\"RAW CONFIGURATION JSON\"",
+      "replace": "\"原始配置 JSON\""
+    },
+    {
+      "find": "\"Import SideSign Config JSON\"",
+      "replace": "\"导入 SideSign 配置 JSON\""
+    },
+    {
+      "find": "\"File Selection Failed\"",
+      "replace": "\"文件选择失败\""
+    },
+    {
+      "find": "Label(\"Save Overrides\"",
+      "replace": "Label(\"保存覆盖配置\""
+    },
+    {
+      "find": "Label(\"Save Raw JSON\"",
+      "replace": "Label(\"保存原始 JSON\""
+    },
+    {
+      "find": "Label(\"Import Config JSON\"",
+      "replace": "Label(\"导入配置 JSON\""
+    },
+    {
+      "find": "Label(\"Export Config JSON\"",
+      "replace": "Label(\"导出配置 JSON\""
+    },
+    {
+      "find": "Label(\"Reset to Defaults\"",
+      "replace": "Label(\"恢复默认\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/UserCustomizations/ThemePickerView.swift": [
+    {
+      "find": "\"HEX Code\"",
+      "replace": "\"HEX 色值\""
+    },
+    {
+      "find": "\"RGB Format\"",
+      "replace": "\"RGB 格式\""
+    },
+    {
+      "find": "\"HSL Format\"",
+      "replace": "\"HSL 格式\""
+    }
+  ],
+  "SideStore/Views/Settings/Advanced/UserCustomizations/UserCustomizationsView.swift": [
+    {
+      "find": "Button(\"Restart Now\"",
+      "replace": "Button(\"立即重启\""
+    },
+    {
+      "find": "Button(\"Switch\"",
+      "replace": "Button(\"切换\""
+    },
+    {
+      "find": ".alert(\"Restart Required\"",
+      "replace": ".alert(\"需要重启\""
+    },
+    {
+      "find": "\"On-Device Anisette\"",
+      "replace": "\"设备端 Anisette\""
+    },
+    {
+      "find": "\"Run ADI emulation directly on device instead of remote servers\"",
+      "replace": "\"直接在设备上运行 ADI 模拟，而不依赖远程服务器\""
+    },
+    {
+      "find": "\"Disable All Verifications\"",
+      "replace": "\"禁用所有验证\""
+    },
+    {
+      "find": "\"Bundle Identifier Check\"",
+      "replace": "\"Bundle Identifier 检查\""
+    },
+    {
+      "find": "\"iOS Version Check\"",
+      "replace": "\"iOS 版本检查\""
+    },
+    {
+      "find": "\"App Version Check\"",
+      "replace": "\"应用版本检查\""
+    },
+    {
+      "find": "\"Checksum (SHA-256) Check\"",
+      "replace": "\"校验和 (SHA-256) 检查\""
+    },
+    {
+      "find": "\"App File Size Check\"",
+      "replace": "\"应用文件大小检查\""
+    },
+    {
+      "find": "\"Permission Checks\"",
+      "replace": "\"权限检查\""
+    },
+    {
+      "find": "\"EMProxy (WireGuard) Server\"",
+      "replace": "\"EMProxy (WireGuard) 服务器\""
+    },
+    {
+      "find": "\"Restart required to apply changes\"",
+      "replace": "\"需要重启以应用更改\""
+    },
+    {
+      "find": "\"Enable Background Keepalive\"",
+      "replace": "\"启用后台保活\""
+    },
+    {
+      "find": "\"Changing Anisette config will invalidate your current provisioned Anisette data and you will be signed out.\\n\\nThis action will require a restart, do you want to proceed?\"",
+      "replace": "\"更改 Anisette 配置将使当前的 Anisette 认证数据失效并退出登录。\\n\\n此操作需要重启应用，是否继续？\""
+    },
+    {
+      "find": "\"Prefer Resigned IPA\"",
+      "replace": "\"优先保留重签 IPA\""
+    },
+    {
+      "find": "\"Prefer App Bundle\"",
+      "replace": "\"优先保留应用包\""
+    },
+    {
+      "find": "\"Cellular Refresh\"",
+      "replace": "\"蜂窝网络刷新\""
+    },
+    {
+      "find": "\"Automatically toggle cellular data via Shortcuts during refresh\"",
+      "replace": "\"在刷新期间通过“快捷指令”自动开关蜂窝数据\""
+    },
+    {
+      "find": "\"Turn On Cellular Shortcut\"",
+      "replace": "\"开启蜂窝数据快捷指令\""
+    },
+    {
+      "find": "\"Name of the shortcut in Apple Shortcuts app\"",
+      "replace": "\"Apple“快捷指令”App 中的指令名称\""
+    },
+    {
+      "find": "\"Turn Off Cellular Shortcut\"",
+      "replace": "\"关闭蜂窝数据快捷指令\""
+    },
+    {
+      "find": "\"Turn On Base Delay\"",
+      "replace": "\"开启后基础延迟\""
+    },
+    {
+      "find": "\"Base wait time after turning on data (seconds, ≥ 0)\"",
+      "replace": "\"开启数据后的基础等待时间（秒，≥ 0）\""
+    },
+    {
+      "find": "\"Turn Off Base Delay\"",
+      "replace": "\"关闭后基础延迟\""
+    },
+    {
+      "find": "\"Base wait time after turning off data (seconds, ≥ 0)\"",
+      "replace": "\"关闭数据后的基础等待时间（秒，≥ 0）\""
+    },
+    {
+      "find": "\"Customize AppID\"",
+      "replace": "\"自定义 App ID\""
+    },
+    {
+      "find": "\"Confirm App Installation\"",
+      "replace": "\"确认应用安装\""
+    },
+    {
+      "find": "\"Prompt for confirmation before installing or importing an app\"",
+      "replace": "\"在安装或导入应用前弹出确认提示\""
+    },
+    {
+      "find": "\"Clear Customizations on Uninstall\"",
+      "replace": "\"卸载时清除自定义设置\""
+    },
+    {
+      "find": "\"Reset assigned profiles, custom certificates, and metadata when an app is deleted\"",
+      "replace": "\"删除应用时重置分配的描述文件、自定义证书和元数据\""
+    },
+    {
+      "find": "\"Auto-Launch App After Install\"",
+      "replace": "\"安装后自动启动应用\""
+    },
+    {
+      "find": "\"Automatically open apps after installation completes\"",
+      "replace": "\"安装完成后自动打开应用\""
+    },
+    {
+      "find": "\"Auto-Fix AppGroup IDs\"",
+      "replace": "\"自动修复 App Group ID\""
+    },
+    {
+      "find": "\"Required for free developer accounts\"",
+      "replace": "\"免费开发者账号必需\""
+    },
+    {
+      "find": "\"Automatically fix App Group casing mismatches\"",
+      "replace": "\"自动修复 App Group 大小写不匹配\""
+    },
+    {
+      "find": "\"Prompt to choose a custom icon before installing\"",
+      "replace": "\"安装前提示选择自定义图标\""
+    },
+    {
+      "find": "\"Customize Provisioning Profile\"",
+      "replace": "\"自定义描述文件\""
+    },
+    {
+      "find": "\"Prompt to select a provisioning profile before installing\"",
+      "replace": "\"安装前提示选择描述文件\""
+    },
+    {
+      "find": "\"Prefer IPA (speed) vs App (storage) efficiency\"",
+      "replace": "\"优先 IPA（速度）还是应用包（省空间）\""
+    },
+    {
+      "find": "\"Export Resigned IPAs\"",
+      "replace": "\"导出重签后的 IPA\""
+    },
+    {
+      "find": "\"Skip Uncopyable Backup Files\"",
+      "replace": "\"跳过无法复制的备份文件\""
+    },
+    {
+      "find": "\"Prefer Sheet for Info.plist\"",
+      "replace": "\"使用底部弹窗编辑 Info.plist\""
+    },
+    {
+      "find": "\"Use sheet instead of dialog\"",
+      "replace": "\"使用 Sheet 弹窗替代对话框\""
+    },
+    {
+      "find": "\"Prefer Sheet for Entitlements\"",
+      "replace": "\"使用底部弹窗编辑 Entitlements\""
+    },
+    {
+      "find": "\"Unable to locate SideStore.conf in bundle resources.\"",
+      "replace": "\"在应用资源中找不到 SideStore.conf。\""
+    },
+    {
+      "find": "\"Customize Info.plist\"",
+      "replace": "\"自定义 Info.plist\""
+    },
+    {
+      "find": "\"Customize Entitlements\"",
+      "replace": "\"自定义权限配置\""
+    },
+    {
+      "find": "\"Customize App Icon\"",
+      "replace": "\"自定义 App 图标\""
+    }
+  ],
+  "SideStore/Views/Settings/Auth/ImportAccountAlertController.swift": [
+    {
+      "find": "\"SideStore should be fully operational!\"",
+      "replace": "\"SideStore 现已可正常使用！\""
+    }
+  ],
+  "SideStore/Views/Settings/Auth/RevokeCertificatesAlertViewController.swift": [
+    {
+      "find": "\"Serial: \\(cert.serialNumber)\"",
+      "replace": "\"序列号：\\(cert.serialNumber)\""
+    },
+    {
+      "find": "\"Expires: \\(expDate.prefix(10))\"",
+      "replace": "\"过期时间：\\(expDate.prefix(10))\""
+    }
+  ],
+  "SideStore/Views/Settings/Diagnostics/DeveloperOptionsView.swift": [
+    {
+      "find": "Button(\"Delete & Exit\"",
+      "replace": "Button(\"删除并退出\""
+    },
+    {
+      "find": "Button(\"Clear\"",
+      "replace": "Button(\"清除\""
+    },
+    {
+      "find": "Button(\"Clear All\"",
+      "replace": "Button(\"全部清除\""
+    },
+    {
+      "find": "TextField(\"ms\"",
+      "replace": "TextField(\"毫秒\""
+    },
+    {
+      "find": "SecureField(\"Certificate Password\"",
+      "replace": "SecureField(\"证书密码\""
+    },
+    {
+      "find": ".alert(\"Dump Profiles\"",
+      "replace": ".alert(\"导出描述文件\""
+    },
+    {
+      "find": "\"Disable URL Response Caching\"",
+      "replace": "\"禁用 URL 响应缓存\""
+    },
+    {
+      "find": "\"Rotate Logs on Startup\"",
+      "replace": "\"启动时轮转日志\""
+    },
+    {
+      "find": "\"SideStore Verbose Logging\"",
+      "replace": "\"SideStore 详细日志\""
+    },
+    {
+      "find": "\"Widget Verbose Logging\"",
+      "replace": "\"小组件详细日志\""
+    },
+    {
+      "find": "\"Top Shelf Verbose Logging\"",
+      "replace": "\"Top Shelf 详细日志\""
+    },
+    {
+      "find": "\"SideSign Verbose Logging\"",
+      "replace": "\"SideSign 详细日志\""
+    },
+    {
+      "find": "\"Minimuxer Verbose Logging\"",
+      "replace": "\"Minimuxer 详细日志\""
+    },
+    {
+      "find": "\"Operations Verbose Logging\"",
+      "replace": "\"操作流程详细日志\""
+    },
+    {
+      "find": "\"WIDGET OPTIONS\"",
+      "replace": "\"小组件选项\""
+    },
+    {
+      "find": "\"TOP SHELF OPTIONS\"",
+      "replace": "\"Top Shelf 选项\""
+    },
+    {
+      "find": "\"Reload All Widgets\"",
+      "replace": "\"刷新所有小组件\""
+    },
+    {
+      "find": "\"Reload Top Shelf\"",
+      "replace": "\"刷新 Top Shelf\""
+    },
+    {
+      "find": "\"Rotate Widget Log\"",
+      "replace": "\"轮转小组件日志\""
+    },
+    {
+      "find": "\"Rotate Top Shelf Log\"",
+      "replace": "\"轮转 Top Shelf 日志\""
+    },
+    {
+      "find": "\"Wipe Database on Next Start\"",
+      "replace": "\"下次启动时清空数据库\""
+    },
+    {
+      "find": "\"Show WireGuard Settings\"",
+      "replace": "\"显示 WireGuard 设置\""
+    },
+    {
+      "find": "\"Use Default (\\(AppConstants.Minimuxer.defaultTCPProbeTimeoutMs) ms)\"",
+      "replace": "\"使用默认值 (\\(AppConstants.Minimuxer.defaultTCPProbeTimeoutMs) ms)\""
+    },
+    {
+      "find": "\"Accept IPv6 Config\"",
+      "replace": "\"接受 IPv6 配置\""
+    },
+    {
+      "find": "\"Auto Retry RemotePairing Port\"",
+      "replace": "\"自动重试 RemotePairing 端口\""
+    },
+    {
+      "find": "\"Account not found or missing credentials.\"",
+      "replace": "\"未找到账号或缺少凭据。\""
+    },
+    {
+      "find": "\"Profiles saved to:\\n\\(fileName)\"",
+      "replace": "\"描述文件已保存至：\\n\\(fileName)\""
+    },
+    {
+      "find": "\"Failed to dump profiles:\\n\\(error.localizedDescription)\"",
+      "replace": "\"导出描述文件失败：\\n\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"SideStore should be fully operational!\"",
+      "replace": "\"SideStore 现已可正常使用！\""
+    },
+    {
+      "find": "\"Account malformed.\"",
+      "replace": "\"账号数据格式错误。\""
+    },
+    {
+      "find": "\"EMProxy loopback server is running.\"",
+      "replace": "\"EMProxy 回环服务器正在运行。\""
+    },
+    {
+      "find": "\"EMProxy loopback server stopped.\"",
+      "replace": "\"EMProxy 回环服务器已停止。\""
+    },
+    {
+      "find": "\"Enable background service in User Customizations.\"",
+      "replace": "\"请在“用户自定义”中启用后台服务。\""
+    },
+    {
+      "find": "\"Background keepalive service stopped.\"",
+      "replace": "\"后台保活服务已停止。\""
+    },
+    {
+      "find": "\"Triggered timeline refresh for all widgets.\"",
+      "replace": "\"已触发所有小组件时间线刷新。\""
+    },
+    {
+      "find": "\"Triggered Top Shelf refresh.\"",
+      "replace": "\"已触发 Top Shelf 刷新。\""
+    },
+    {
+      "find": "\"Saved to WidgetLogs/\\(rotatedURL.lastPathComponent)\"",
+      "replace": "\"已保存至 WidgetLogs/\\(rotatedURL.lastPathComponent)\""
+    },
+    {
+      "find": "\"Nothing to rotate.\"",
+      "replace": "\"没有需要轮转的日志。\""
+    },
+    {
+      "find": "\"Import Account\"",
+      "replace": "\"导入账户\""
+    },
+    {
+      "find": "\"Export Account\"",
+      "replace": "\"导出账号\""
+    }
+  ],
+  "SideStore/Views/Settings/Diagnostics/ExperimentalFeaturesView.swift": [
+    {
+      "find": "\"Enable Minimuxer Backend Hotswap\"",
+      "replace": "\"启用 Minimuxer 后端热切换\""
+    }
+  ],
+  "SideStore/Views/Settings/Diagnostics/OperationsLoggingControlView.swift": [
+    {
+      "find": ".navigationTitle(\"Operations Logging\")",
+      "replace": ".navigationTitle(\"操作日志记录\")"
+    },
+    {
+      "find": "\"Backup App Data\"",
+      "replace": "\"备份应用数据\""
+    },
+    {
+      "find": "\"Cache App\"",
+      "replace": "\"缓存应用\""
+    },
+    {
+      "find": "\"Clean Staged App\"",
+      "replace": "\"清理暂存应用\""
+    },
+    {
+      "find": "\"Deactivate App\"",
+      "replace": "\"停用应用\""
+    },
+    {
+      "find": "\"Download App\"",
+      "replace": "\"下载应用\""
+    },
+    {
+      "find": "\"Export Resigned IPA\"",
+      "replace": "\"导出重签 IPA\""
+    },
+    {
+      "find": "\"Fetch Provisioning Profiles\"",
+      "replace": "\"获取描述文件\""
+    },
+    {
+      "find": "\"Preflight Checks\"",
+      "replace": "\"预检\""
+    },
+    {
+      "find": "\"Prepare App Extension Bundle IDs\"",
+      "replace": "\"准备应用扩展 Bundle ID\""
+    },
+    {
+      "find": "\"Refresh App\"",
+      "replace": "\"刷新应用\""
+    },
+    {
+      "find": "\"Remove App\"",
+      "replace": "\"移除应用\""
+    },
+    {
+      "find": "\"Remove Backup Data\"",
+      "replace": "\"删除备份数据\""
+    },
+    {
+      "find": "\"Resign App\"",
+      "replace": "\"重签应用\""
+    },
+    {
+      "find": "\"Restore App Data\"",
+      "replace": "\"恢复应用数据\""
+    },
+    {
+      "find": "\"Send App\"",
+      "replace": "\"发送应用\""
+    },
+    {
+      "find": "\"Stage App\"",
+      "replace": "\"暂存应用\""
+    },
+    {
+      "find": "\"Stage Backup App\"",
+      "replace": "\"暂存备份应用\""
+    },
+    {
+      "find": "\"Update App Certificate\"",
+      "replace": "\"更新应用证书\""
+    },
+    {
+      "find": "\"User Customization\"",
+      "replace": "\"用户自定义\""
+    },
+    {
+      "find": "\"Verify App\"",
+      "replace": "\"验证应用\""
+    },
+    {
+      "find": "\"Verify Certificate\"",
+      "replace": "\"验证证书\""
+    },
+    {
+      "find": "\"Create IPA\"",
+      "replace": "\"创建 IPA\""
+    },
+    {
+      "find": "\"Sign In\"",
+      "replace": "\"登录\""
+    },
+    {
+      "find": "\"Background Refresh Apps\"",
+      "replace": "\"后台刷新应用\""
+    },
+    {
+      "find": "\"Clear App Cache\"",
+      "replace": "\"清理应用缓存\""
+    },
+    {
+      "find": "\"Sync App IDs\"",
+      "replace": "\"同步 App ID\""
+    },
+    {
+      "find": "\"Fetch Source\"",
+      "replace": "\"获取软件源\""
+    },
+    {
+      "find": "\"Schedule Expiration Warning\"",
+      "replace": "\"安排过期提醒\""
+    }
+  ],
+  "SideStore/Views/Settings/TechyThings/ErrorLog/ConsoleLogView.swift": [
+    {
+      "find": "Button(\"Import Log...\"",
+      "replace": "Button(\"导入日志...\""
+    },
+    {
+      "find": "Button(\"Remove Imported\"",
+      "replace": "Button(\"移除已导入日志\""
+    },
+    {
+      "find": "Button(\"Scroll to Bottom\"",
+      "replace": "Button(\"滚动到底部\""
+    },
+    {
+      "find": "Label(\"Import Log...\", systemImage:",
+      "replace": "Label(\"导入日志...\", systemImage:"
+    },
+    {
+      "find": "Label(\"Remove Imported\", systemImage:",
+      "replace": "Label(\"移除已导入日志\", systemImage:"
+    },
+    {
+      "find": "TextField(\"Search\"",
+      "replace": "TextField(\"搜索\""
+    },
+    {
+      "find": ".confirmationDialog(\"Logs Menu\"",
+      "replace": ".confirmationDialog(\"日志菜单\""
+    },
+    {
+      "find": "\"Export Log\"",
+      "replace": "\"导出日志\""
+    },
+    {
+      "find": "\"Imported Log\\n(\\(importedURL.lastPathComponent))\"",
+      "replace": "\"已导入日志\\n(\\(importedURL.lastPathComponent))\""
+    },
+    {
+      "find": "\"Imported Log (\\(importedURL.lastPathComponent))\"",
+      "replace": "\"已导入日志 (\\(importedURL.lastPathComponent))\""
+    },
+    {
+      "find": "\"Import Log File\"",
+      "replace": "\"导入日志文件\""
+    },
+    {
+      "find": "Label(\"Import Log...\"",
+      "replace": "Label(\"导入日志…\""
+    },
+    {
+      "find": "Label(\"Remove Imported\"",
+      "replace": "Label(\"移除已导入\""
+    }
+  ],
+  "SideStore/Views/Settings/TechyThings/HealthCheck/HealthCheckView.swift": [
+    {
+      "find": ".navigationTitle(\"Health Check\")",
+      "replace": ".navigationTitle(\"健康检查\")"
+    },
+    {
+      "find": "\"All requirements met. Local device pairing & VPN tunnel active.\"",
+      "replace": "\"所有条件均已满足。本地设备配对与 VPN 隧道正常。\""
+    },
+    {
+      "find": "\"All requirements met. Local device pairing & Remote server connection active.\"",
+      "replace": "\"所有条件均已满足。本地设备配对与远程服务器连接正常。\""
+    },
+    {
+      "find": "\"Performing Diagnostic Check...\"",
+      "replace": "\"正在执行诊断检查…\""
+    },
+    {
+      "find": "\"Network Connectivity\"",
+      "replace": "\"网络连接\""
+    },
+    {
+      "find": "\"Wi-Fi Active\"",
+      "replace": "\"Wi-Fi 已连接\""
+    },
+    {
+      "find": "\"No Connection\"",
+      "replace": "\"无网络连接\""
+    },
+    {
+      "find": "\"VPN Tunnel (utun)\"",
+      "replace": "\"VPN 隧道 (utun)\""
+    },
+    {
+      "find": "\"IPSec/IKEv2 Tunnel\"",
+      "replace": "\"IPSec/IKEv2 隧道\""
+    },
+    {
+      "find": "\"Device Reachability (Ping)\"",
+      "replace": "\"设备可达性 (Ping)\""
+    },
+    {
+      "find": "\"Pairing file\"",
+      "replace": "\"配对文件\""
+    },
+    {
+      "find": "\"Loaded (Connection down)\"",
+      "replace": "\"已加载（连接未建立）\""
+    },
+    {
+      "find": "\"Unverified / Missing\"",
+      "replace": "\"未验证 / 缺失\""
+    },
+    {
+      "find": "\"Developer Disk Image (DDI)\"",
+      "replace": "\"开发者磁盘镜像 (DDI)\""
+    },
+    {
+      "find": "\"Not Mounted (JIT unavailable)\"",
+      "replace": "\"未挂载（JIT 不可用）\""
+    },
+    {
+      "find": "\"Local VPN\"",
+      "replace": "\"本地 VPN\""
+    },
+    {
+      "find": "\"Remote Server\"",
+      "replace": "\"远程服务器\""
+    },
+    {
+      "find": "\"Tunnel Iface IP\"",
+      "replace": "\"隧道接口 IP\""
+    },
+    {
+      "find": "\"Tunnel Peer IP\"",
+      "replace": "\"隧道对端 IP\""
+    },
+    {
+      "find": "\"Override Peer IP\"",
+      "replace": "\"覆盖对端 IP\""
+    },
+    {
+      "find": "\"Remote Endpoint IP\"",
+      "replace": "\"远程端点 IP\""
+    },
+    {
+      "find": "? \"Unknown\" :",
+      "replace": "? \"未知\" :"
+    },
+    {
+      "find": "? \"Verified\" :",
+      "replace": "? \"已验证\" :"
+    },
+    {
+      "find": "? \"Mounted\" :",
+      "replace": "? \"已挂载\" :"
+    }
+  ],
+  "SideStore/Views/Settings/TechyThings/StorageExplorer/DirectoryExplorerView.swift": [
+    {
+      "find": "Label(\"Copy\", systemImage:",
+      "replace": "Label(\"复制\", systemImage:"
+    },
+    {
+      "find": "Label(\"Share\", systemImage:",
+      "replace": "Label(\"共享\", systemImage:"
+    },
+    {
+      "find": "Menu(\"Sort By\"",
+      "replace": "Menu(\"排序方式\""
+    },
+    {
+      "find": ".confirmationDialog(\"Options\"",
+      "replace": ".confirmationDialog(\"选项\""
+    },
+    {
+      "find": "\"Search files & folders\"",
+      "replace": "\"搜索文件和文件夹\""
+    },
+    {
+      "find": "\"Delete “\\(item.name)”?\"",
+      "replace": "\"删除“\\(item.name)”？\""
+    },
+    {
+      "find": "\"Delete \\(count) Selected Items?\"",
+      "replace": "\"删除所选的 \\(count) 项？\""
+    },
+    {
+      "find": "\"Are you sure you want to permanently delete these \\(count) items?\"",
+      "replace": "\"确定要永久删除这 \\(count) 项吗？\""
+    },
+    {
+      "find": "\"Rename “\\(item.name)”\"",
+      "replace": "\"重命名“\\(item.name)”\""
+    },
+    {
+      "find": "\"Rename Item\"",
+      "replace": "\"重命名项目\""
+    },
+    {
+      "find": "\"Bulk Rename \\(count) Items\"",
+      "replace": "\"批量重命名 \\(count) 项\""
+    },
+    {
+      "find": "\"Enter a new name:\"",
+      "replace": "\"输入新名称：\""
+    },
+    {
+      "find": "\"Enter a base name (items will be renamed Name_1, Name_2...):\"",
+      "replace": "\"输入基础名称（项目将重命名为 名称_1、名称_2…）：\""
+    },
+    {
+      "find": "\"An item named “\\(conflict.existingName)” already exists in this folder. Enter a new name to copy:\"",
+      "replace": "\"此文件夹中已存在名为“\\(conflict.existingName)”的项目。请输入新名称以复制：\""
+    },
+    {
+      "find": "\"Folders (\\(folders.count))\"",
+      "replace": "\"文件夹 (\\(folders.count))\""
+    },
+    {
+      "find": "\"Files (\\(files.count))\"",
+      "replace": "\"文件 (\\(files.count))\""
+    },
+    {
+      "find": "\"Copy (\\(count))\"",
+      "replace": "\"复制 (\\(count))\""
+    },
+    {
+      "find": "\"Rename (\\(count))\"",
+      "replace": "\"重命名 (\\(count))\""
+    },
+    {
+      "find": "\"Delete (\\(count))\"",
+      "replace": "\"删除 (\\(count))\""
+    },
+    {
+      "find": "\"Deselect All\"",
+      "replace": "\"取消全选\""
+    },
+    {
+      "find": "\"Select All\"",
+      "replace": "\"全选\""
+    },
+    {
+      "find": "\"Available Space: \\(freeDiskSpaceString)\"",
+      "replace": "\"可用空间：\\(freeDiskSpaceString)\""
+    },
+    {
+      "find": "\"Done Selecting\"",
+      "replace": "\"完成选择\""
+    },
+    {
+      "find": "\"Sort: \\(option.rawValue)\"",
+      "replace": "\"排序：\\(option.rawValue)\""
+    },
+    {
+      "find": "\"Don't Group Folders First\"",
+      "replace": "\"不优先分组文件夹\""
+    },
+    {
+      "find": "\"Group Folders First\"",
+      "replace": "\"优先显示文件夹\""
+    },
+    {
+      "find": "\"Disable Text Wrap\"",
+      "replace": "\"关闭自动换行\""
+    },
+    {
+      "find": "\"Enable Text Wrap\"",
+      "replace": "\"开启自动换行\""
+    }
+  ],
+  "SideStore/Views/Settings/TechyThings/StorageExplorer/StorageExplorerView.swift": [
+    {
+      "find": ".navigationTitle(\"Storage Explorer\")",
+      "replace": ".navigationTitle(\"存储浏览器\")"
+    },
+    {
+      "find": "\"Private Documents\"",
+      "replace": "\"私有文稿\""
+    },
+    {
+      "find": "\"App Group Container (\\(groupID))\"",
+      "replace": "\"App Group 容器 (\\(groupID))\""
+    },
+    {
+      "find": "\"App Backups Directory\"",
+      "replace": "\"应用备份目录\""
+    },
+    {
+      "find": "\"Temporary Directory (tmp)\"",
+      "replace": "\"临时目录 (tmp)\""
+    }
+  ],
+  "SideStore/Views/Settings/TechyThings/StorageExplorer/StorageExplorerViewModel.swift": [
+    {
+      "find": "\"Paste “\\(first.lastPathComponent)”\"",
+      "replace": "\"粘贴“\\(first.lastPathComponent)”\""
+    },
+    {
+      "find": "\"Paste \\(copiedURLs.count) Items\"",
+      "replace": "\"粘贴 \\(copiedURLs.count) 项\""
+    },
+    {
+      "find": "\"Date Modified\"",
+      "replace": "\"修改日期\""
+    },
+    {
+      "find": "\"Failed to delete \\(item.name): \\(error.localizedDescription)\"",
+      "replace": "\"删除 \\(item.name) 失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Errors deleting items:\\n\"",
+      "replace": "\"删除项目时出错：\\n\""
+    },
+    {
+      "find": "\"Failed to rename \\(item.name): \\(error.localizedDescription)\"",
+      "replace": "\"重命名 \\(item.name) 失败：\\(error.localizedDescription)\""
+    },
+    {
+      "find": "\"Errors renaming items:\\n\"",
+      "replace": "\"重命名项目时出错：\\n\""
+    },
+    {
+      "find": "\"Errors copying items:\\n\"",
+      "replace": "\"复制项目时出错：\\n\""
+    },
+    {
+      "find": "\"A file named “\\(trimmed)” already exists in this folder. Please choose a different name.\"",
+      "replace": "\"此文件夹中已存在名为“\\(trimmed)”的文件，请换一个名称。\""
+    }
+  ]
+}
