@@ -1,0 +1,227 @@
+name: Sync Upstream & Build Chinese IPA
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Specific upstream release tag to sync (leave empty to auto-check nightly & alpha)"
+        required: false
+        default: ""
+      force:
+        description: "Force rebuild even if release tag already exists"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-zh-release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check-upstream:
+    runs-on: ubuntu-latest
+    outputs:
+      tags_json: ${{ steps.find.outputs.tags_json }}
+    steps:
+      - name: Find upstream releases to sync
+        id: find
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_TAG: ${{ inputs.tag }}
+          FORCE_REBUILD: ${{ inputs.force }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+
+          upstream = "SideStore/SideStore"
+          fork = os.environ["GITHUB_REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+          input_tag = os.environ["INPUT_TAG"].strip()
+          force = os.environ["FORCE_REBUILD"].lower() == "true"
+
+          def gh_get(url):
+              req = urllib.request.Request(url, headers={
+                  "Accept": "application/vnd.github+json",
+                  "Authorization": f"Bearer {token}",
+                  "User-Agent": "SideStore-ZH-Sync"
+              })
+              with urllib.request.urlopen(req) as resp:
+                  return json.loads(resp.read().decode("utf-8"))
+
+          upstream_releases = gh_get(f"https://api.github.com/repos/{upstream}/releases?per_page=20")
+          try:
+              fork_releases = {r["tag_name"]: r for r in gh_get(f"https://api.github.com/repos/{fork}/releases?per_page=30")}
+          except Exception:
+              fork_releases = {}
+
+          selected = []
+          if input_tag:
+              for r in upstream_releases:
+                  if r["tag_name"] == input_tag:
+                      selected.append(r)
+                      break
+          else:
+              # Pick latest nightly and latest alpha pre-release
+              got_nightly = False
+              got_alpha = False
+              for r in upstream_releases:
+                  tag = r["tag_name"]
+                  if tag == "nightly" and not got_nightly:
+                      got_nightly = True
+                      assets = r.get("assets") or []
+                      asset_ts = max((a.get("updated_at", "") for a in assets), default=r.get("published_at", ""))
+                      existing = fork_releases.get(tag)
+                      if force or not existing or asset_ts not in (existing.get("body") or ""):
+                          r["_upstream_ref"] = f"refs/tags/{tag}"
+                          r["_stamp"] = asset_ts
+                          selected.append(r)
+                  elif tag.endswith("-alpha") and not got_alpha:
+                      got_alpha = True
+                      if force or tag not in fork_releases:
+                          r["_upstream_ref"] = f"refs/tags/{tag}"
+                          r["_stamp"] = r.get("published_at", "")
+                          selected.append(r)
+                  if got_nightly and got_alpha:
+                      break
+
+          # Publish oldest first so newest (e.g. nightly) ends up at the top of Releases
+          selected.sort(key=lambda r: r.get("_stamp") or r.get("published_at") or "")
+
+          out = [
+              {
+                  "tag_name": r["tag_name"],
+                  "name": r.get("name") or r["tag_name"],
+                  "prerelease": bool(r.get("prerelease", False)),
+                  "published_at": r.get("_stamp") or r.get("published_at", ""),
+                  "upstream_ref": r.get("_upstream_ref") or f"refs/tags/{r['tag_name']}",
+                  "body": r.get("body") or "",
+              }
+              for r in selected
+          ]
+          print("Selected releases:", [x["tag_name"] for x in out])
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"tags_json={json.dumps(out, ensure_ascii=False)}\n")
+          PY
+
+  build-and-release:
+    needs: check-upstream
+    if: needs.check-upstream.outputs.tags_json != '[]'
+    runs-on: macos-15
+    strategy:
+      fail-fast: false
+      matrix:
+        release: ${{ fromJson(needs.check-upstream.outputs.tags_json) }}
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      UPSTREAM_TAG: ${{ matrix.release.tag_name }}
+      UPSTREAM_REF: ${{ matrix.release.upstream_ref }}
+      RELEASE_NAME: ${{ matrix.release.name }}
+      IS_PRERELEASE: ${{ matrix.release.prerelease }}
+      PUBLISHED_AT: ${{ matrix.release.published_at }}
+
+    steps:
+      - name: Checkout zh branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout upstream tag and overlay zh files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/SideStore/SideStore.git || git remote set-url upstream https://github.com/SideStore/SideStore.git
+          git fetch upstream "${{ env.UPSTREAM_REF }}"
+          git checkout --detach FETCH_HEAD
+          git submodule sync --recursive
+          git submodule update --init --recursive || (
+            git submodule foreach --recursive 'git fetch --all --tags || true' &&
+            git submodule update --init --recursive
+          )
+          git checkout "${{ github.sha }}" -- \
+            AltStore/Localizable.xcstrings \
+            AltStore/InfoPlist.xcstrings \
+            AltWidget/Localizable.xcstrings \
+            AltWidget/InfoPlist.xcstrings \
+            SideBackup/Localizable.xcstrings \
+            SideBackup/InfoPlist.xcstrings \
+            scripts/
+
+      - name: Setup Xcode (26+)
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: "^26.0"
+
+      - name: Ensure zh-Hans region in project.pbxproj
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("AltStore.xcodeproj/project.pbxproj")
+          text = p.read_text(encoding="utf-8")
+          if '"zh-Hans"' not in text:
+              text = text.replace(
+                  "\t\t\tknownRegions = (\n\t\t\t\ten,\n\t\t\t\tBase,\n\t\t\t);",
+                  '\t\t\tknownRegions = (\n\t\t\t\ten,\n\t\t\t\tBase,\n\t\t\t\t"zh-Hans",\n\t\t\t);',
+              )
+              p.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Install build tools
+        run: brew install ldid
+
+      - name: Inject Storyboard & XIB Chinese translations
+        run: python3 scripts/apply_extra_zh.py apply
+
+      - name: Match upstream marketing version
+        env:
+          RELEASE_BODY: ${{ matrix.release.body }}
+          BUILD_NUM: ${{ github.run_number }}
+        run: |
+          UPSTREAM_VERSION=$(python3 -c 'import os, re; m = re.search(r"Version:\s*\x60([^\x60\s]+)\x60", os.environ.get("RELEASE_BODY", "")); print(m.group(1) if m else "")')
+          if [ -z "$UPSTREAM_VERSION" ]; then
+            BASE_VER=$(python3 scripts/ci/workflow.py get-marketing-version)
+            SHORT_SHA=$(git rev-parse --short=8 HEAD)
+            UPSTREAM_VERSION=$(python3 scripts/ci/workflow.py compute-normalized "$BASE_VER" "$BUILD_NUM" "$SHORT_SHA")
+          fi
+          echo "Setting MARKETING_VERSION=$UPSTREAM_VERSION"
+          python3 scripts/ci/workflow.py set-marketing-version "$UPSTREAM_VERSION"
+
+      - name: Build, fakesign, and package SideStore.ipa
+        run: make build fakesign ipa
+
+      - name: Restore temporary Storyboard/XIB edits
+        if: always()
+        run: python3 scripts/apply_extra_zh.py restore
+
+      - name: Publish GitHub Release
+        env:
+          GH_REPO: ${{ github.repository }}
+        run: |
+          BODY_FILE=$(mktemp)
+          cat <<'EOF' > "$BODY_FILE"
+          ${{ matrix.release.body }}
+
+          ---
+          > 🇨🇳 **简体中文构建** | 同步自上游 `${{ env.UPSTREAM_TAG }}` (`${{ env.PUBLISHED_AT }}`)
+          EOF
+
+          PRERELEASE_FLAG=""
+          if [ "${{ env.IS_PRERELEASE }}" = "true" ]; then
+            PRERELEASE_FLAG="--prerelease"
+          fi
+
+          # Delete existing rolling tag release (e.g. nightly) if re-releasing
+          gh release delete "${{ env.UPSTREAM_TAG }}" --repo "${{ github.repository }}" --yes || true
+          git push origin ":refs/tags/${{ env.UPSTREAM_TAG }}" || true
+
+          gh release create "${{ env.UPSTREAM_TAG }}" \
+            SideStore.ipa \
+            --repo "${{ github.repository }}" \
+            --target "${{ github.sha }}" \
+            --title "${{ env.RELEASE_NAME }}" \
+            --notes-file "$BODY_FILE" \
+            $PRERELEASE_FLAG
